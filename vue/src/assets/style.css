@@ -1,0 +1,122 @@
+:root {
+    --blue: #2405f2;
+    --orange: #ff3b00;
+    --pink: #ffb6ed;
+    --beige: #fffdeb;
+  }
+  #app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+body{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    margin: 0 !important;
+    background: #3100ff;
+}
+.wrapping-content{
+    width: 100%;
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+    z-index: 99;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 30px;
+    overflow: hidden;
+}
+.loader {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+z-index: -999;
+}
+
+.loader .wrapping-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+
+    -webkit-box-pack: center;
+
+    -ms-flex-pack: center;
+
+    justify-content: center;
+}
+.loader img {
+    height: 170px;
+}
+
+h1{
+    font-family: "Miratrix";
+}
+
+.fade-enter, .fade-leave-to{
+    opacity: 0;
+    transform: translateX(6em);
+}
+.fade-enter-active, .fade-leave-active{
+    transition: all 0.6s ease;
+}
+.fade-enter-active{
+    transition-delay: 0.8s;
+}
+.home{
+    background-color: var(--blue);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.home h1{
+    font-size: 13em;
+    margin: 0;
+    line-height: 0.85;
+    display: flex;
+    color: var(--pink);
+    animation: intro 5s infinite;
+    opacity: 0;
+    cursor: default;
+    padding: 0 15px;
+}
+.pandemic{
+}
+.streaming{}
+.equals{}
+.pandeaming{}
+@keyframes intro{
+    0%{
+        opacity: 0;
+    }
+    1%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes bgcolor{
+    0%{}
+}
+
+.home h1:nth-child(2){
+    animation-delay: 1s;
+}
+.home h1:nth-child(3){
+    animation-delay: 1.5s;
+}
+.home h1:nth-child(4){
+    animation-delay: 2s;
+}
+.home h1:nth-child(5){
+    animation-delay: 2.5s;
+}
+.home .wrapping-content{}
