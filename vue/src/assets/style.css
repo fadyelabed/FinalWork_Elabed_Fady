@@ -15,6 +15,10 @@ body{
     margin: 0 !important;
     background: #3100ff;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .wrapping-content{
     width: 100%;
     max-width: 1440px;
@@ -60,10 +64,10 @@ h1{
     transform: translateX(6em);
 }
 .fade-enter-active, .fade-leave-active{
-    transition: all 0.6s ease;
+    transition: all 1s ease;
 }
 .fade-enter-active{
-    transition-delay: 0.8s;
+    transition-delay: 2.8s;
 }
 .home{
     background-color: var(--blue);
@@ -83,6 +87,42 @@ h1{
     opacity: 0;
     cursor: default;
     padding: 0 15px;
+}
+.about h1{
+    font-size: 13em;
+    margin: 0;
+    line-height: 0.85;
+    /* display: flex; */
+    color: var(--pink);
+    margin-bottom: 2%;
+    cursor: default;
+}
+.about h2{
+    float: left;
+    width: fit-content;
+    display: flex;
+    /* flex-direction: row; */
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 4em;
+    transition: all 0.5s ease;
+}
+.about h2:hover{
+    color: var(--beige);
+}
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('splashconcert.gif');
+    background-size: cover;
+    background-position:center;
+}
+.about .wrapping-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 5%;
 }
 .pandemic{
 }

@@ -2,7 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import VueKinesis from 'vue-kinesis'
-
+import { CursorFx } from '@luxdamore/vue-cursor-fx'
+import '@luxdamore/vue-cursor-fx/dist/CursorFx.css'
+Vue.component(
+  CursorFx.name,
+  CursorFx
+)
 Vue.use(VueKinesis)
 
 Vue.config.productionTip = false
