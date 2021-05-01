@@ -103,7 +103,6 @@ a{
     color: var(--pink);
     animation: intro 5s infinite;
     opacity: 0;
-    cursor: default;
     padding: 0 15px;
 }
 
@@ -143,13 +142,12 @@ a{
     animation-delay: 1s;
 }
 .home h1:nth-child(3){
+    margin-top: -1%;
     animation-delay: 1.5s;
 }
 .home h1:nth-child(4){
+    color: var(--beige);
     animation-delay: 2s;
-}
-.home h1:nth-child(5){
-    animation-delay: 2.5s;
 }
 .home .wrapping-content{}
 
@@ -160,7 +158,6 @@ a{
     /* display: flex; */
     color: var(--pink);
     margin-bottom: 2%;
-    cursor: default;
 }
 .about h2{
     float: left;

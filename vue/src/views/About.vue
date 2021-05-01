@@ -3,7 +3,7 @@
     <kinesis-container>
       <kinesis-element :strength="12"  type="depth" >
         <div class="wrapping-content">
-          <h1>welcome</h1>
+          <h1 >welcome</h1>
           <h2 data-cursor-hover>begin</h2>
           <router-link to="/aboutpage">
             <h2 data-cursor-hover >about</h2>

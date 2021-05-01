@@ -3,13 +3,13 @@
   <div class="home">
 
     <router-link to="/about">
-    <h1 data-cursor-hover data-cursor-mix-blend-mode="difference"
->pandemic +</h1>
-    <h1>streaming</h1>
-    <h1>=</h1>
-    <h1>pandeaming</h1>
+    <h1 data-cursor-hover data-cursor-mix-blend-mode="difference">pandemic +</h1>
+    <h1 data-cursor-hover>streaming</h1>
+    <h1 data-cursor-hover>=</h1>
+    <h1 data-cursor-hover>pandeaming</h1>
+<p data-cursor-hover>click anywhere to enter</p>
 </router-link>
-<p>click anywhere to enter</p>
+
     <cursor-fx>
     </cursor-fx>
   </div>
