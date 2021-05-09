@@ -42,7 +42,7 @@ a{
     overflow: hidden;
 }
 .loader {
-    position: absolute;
+    position: fixed;
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
@@ -77,6 +77,16 @@ h2{
 }
 a{
 }
+.short-enter, .short-leave-to{
+    opacity: 0;
+    /* transform: translateX(6em); */
+}
+.short-enter-active, .short-leave-active{
+    transition: all 1s ease;
+}
+.short-enter-active{
+    transition-delay: 0.3s;
+}
 .fade-enter, .fade-leave-to{
     opacity: 0;
     /* transform: translateX(6em); */
@@ -87,7 +97,7 @@ a{
 .fade-enter-active{
     transition-delay: 2.8s;
 }
-.home{
+.index{
     background-color: var(--blue);
     height: 100vh;
     display: flex;
@@ -95,7 +105,7 @@ a{
     justify-content: center;
     overflow: hidden;
 }
-.home h1{
+.index h1{
     font-size: 13em;
     margin: 0;
     line-height: 0.85;
@@ -133,25 +143,25 @@ a{
         opacity: 1;
     }
 }
-.home p{
+.index p{
     color: var(--beige);
     animation: fade 5s;
     animation-iteration-count: initial;
 }
-.home h1:nth-child(2){
+.index h1:nth-child(2){
     animation-delay: 1s;
 }
-.home h1:nth-child(3){
+.index h1:nth-child(3){
     margin-top: -1%;
     animation-delay: 1.5s;
 }
-.home h1:nth-child(4){
+.index h1:nth-child(4){
     color: var(--beige);
     animation-delay: 2s;
 }
-.home .wrapping-content{}
+.index .wrapping-content{}
 
-.about h1{
+.splash h1{
     font-size: 13em;
     margin: 0;
     line-height: 0.85;
@@ -159,7 +169,7 @@ a{
     color: var(--pink);
     margin-bottom: 2%;
 }
-.about h2{
+.splash h2{
     float: left;
     font-weight: 800;
     width: fit-content;
@@ -170,10 +180,10 @@ a{
     font-size: 4em;
     transition: all 0.5s ease;
 }
-.about h2:hover{
+.splash h2:hover{
     color: var(--beige);
 }
-.about{
+.splash{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -182,7 +192,7 @@ a{
     background-position:center;
     position: relative;
 }
-.about p, .home p{
+.splash p, .index p{
     position: absolute;
     bottom: 0%;
     left: 50%;
@@ -190,7 +200,7 @@ a{
     text-transform: uppercase;
 }
 
-.about .wrapping-content{
+.splash .wrapping-content{
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -231,3 +241,91 @@ a{
     color: var(--blue);
 }
 .aboutpage .wrapping-content{}
+
+.home{
+    background-color: white;
+}
+.home .wrapping-content{}
+.home img{
+
+}
+.logo-top{
+    height: 100px;
+    margin: auto;
+    padding: 4% 0;
+    display: block;
+    /* margin: 1% 0; */
+    text-align: center;
+}
+.home img{}
+.home article{}
+.home article h1{
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    font-size: 17em;
+    /* color: var(--blue); */
+}
+.home section{
+margin-top: 5em;
+    position: relative;
+    overflow: hidden;
+}
+.home .wrapping-content{
+    background-image: none !important;
+}
+.home figure{
+    width: 50%;
+    float: left;
+    background-image: url(/img/performance-facts.460963d7.jpeg);
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+.home figure:nth-child(2){
+    background-image: url('spotify.jpeg');
+
+}
+.home section article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+.numberfact{
+    top: initial !important;
+    bottom: -26%;
+}
+.numberfact h2{
+    font-size: 26em !important;
+}
+.home section article h2{
+    font-size: 10em;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+.home section article p{
+    color: white;
+    margin: 0;
+    font-size: 1.2em;
+}
+.home figure::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    transition: all 0.6s ease;
+}
+.home figure:hover::before{
+    opacity: 0.2;
+
+}

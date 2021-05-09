@@ -1,6 +1,7 @@
 
 <template>
   <div id="app">
+    <router-view name="nav" class="nav"></router-view>
         <div class="loader">
           <div class="wrapping-content">
       <img src="@/assets/loadingscreen.gif" alt="">
@@ -13,6 +14,7 @@
     <transition name="fade" mode="out-in">
     <router-view/>
     </transition>
+
         <cursor-fx>
     </cursor-fx>
   </div>
