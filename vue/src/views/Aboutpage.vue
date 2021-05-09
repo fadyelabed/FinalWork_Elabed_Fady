@@ -2,7 +2,7 @@
   <div class="aboutpage">
         <div class="wrapping-content">
         <router-link to="/about">
-            <h2 data-cursor-hover>go back</h2>
+            <h2 data-cursor-hover @click="play">go back</h2>
         </router-link>
           <h1>[pan-deh-ming]</h1>
         <article>
@@ -17,3 +17,17 @@
     </cursor-fx>
   </div>
 </template>
+
+<script>
+import { useSound } from '@vueuse/sound'
+import backButtonSfx from '../assets/menubacksfx.mp3'
+
+export default {
+  setup () {
+    const { play } = useSound(backButtonSfx)
+    return {
+      play
+    }
+  }
+}
+</script>

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@luxdamore/vue-cursor-fx": "^1.6.2",
+    "@vueuse/sound": "^1.1.7",
     "core-js": "^3.6.5",
     "gsap": "^3.6.1",
     "vue": "^2.6.11",
@@ -16,6 +17,7 @@
     "vue-router": "^3.2.0",
     "vue-scrollmagic": "^1.2.0",
     "vue-smooth-scrollbar": "^0.1.2",
+    "vue-sounds": "0.0.9",
     "vue-splash": "^1.2.1"
   },
   "devDependencies": {
