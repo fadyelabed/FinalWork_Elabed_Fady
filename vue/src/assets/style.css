@@ -24,7 +24,7 @@ body{
     font-family: "Sora", sans-serif;
     font-weight: 400;
     margin: 0 !important;
-    background: #3100ff;
+    background: #3100ff !important;
 }
 a{
     text-decoration: none;
@@ -427,4 +427,16 @@ margin-top: 5em;
     background: var(--blue) !important;
     width: 70vw !important;
     z-index: 99;
+}
+.line-style {
+    height: 8% !important;
+}
+.bm-cross {
+    background: var(--beige) !important;
+    width: 1px !important;
+    height: 24px !important;
+}
+.bm-menu {
+    background-color: var(--blue) !important;
+    z-index: 99 !important;
 }
