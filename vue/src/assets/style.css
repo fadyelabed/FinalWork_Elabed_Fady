@@ -419,3 +419,12 @@ margin-top: 5em;
     text-transform: uppercase;
     padding: 0.8% 1%;
 }
+.mask{
+    background: black !important;
+    z-index: 90;
+}
+.vue-simple-drawer {
+    background: var(--blue) !important;
+    width: 70vw !important;
+    z-index: 99;
+}

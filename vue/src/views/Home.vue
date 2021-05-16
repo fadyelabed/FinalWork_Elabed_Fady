@@ -1,6 +1,10 @@
 <template>
 
   <div class="home intro">
+        <button @click="toggle">toggle</button>
+    <Drawer @close="toggle" align="left" :closeable="true">
+      <div v-if="open">content here</div>
+    </Drawer>
           <router-link to="/splash">
       <img data-cursor-hover @click="play" class="logo-top" src="@/assets/logo1_blue.svg" alt="">
           </router-link>
@@ -77,12 +81,25 @@
 import { useSound } from '@vueuse/sound'
 import backButtonSfx from '../assets/menubacksfx.mp3'
 import { gsap } from 'gsap'
+import Drawer from 'vue-simple-drawer'
 
 export default {
+  name: 'home',
+  data () {
+    return {
+      open: true
+    }
+  },
+  components: {
+    Drawer
+  },
   mounted: function () {
     this.startAnimations()
   },
   methods: {
+    toggle () {
+      this.open = !this.open
+    },
     startAnimations: function () {
       gsap.from('.intro h1', {
         duration: 1.5,
