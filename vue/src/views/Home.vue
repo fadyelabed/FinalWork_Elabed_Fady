@@ -1,10 +1,31 @@
 <template>
 
   <div class="home intro">
-    <Slide :width="1200">
-      <a id="home" href="#">
-        <span>Home</span>
-      </a>
+    <Slide :width="1400" data-cursor-hover>
+        <router-link to="/">
+          <span data-cursor-hover class="nav-active">Home</span>
+        </router-link>
+        <router-link to="">
+        <span data-cursor-hover>sales & streaming</span>
+        </router-link>
+        <router-link to="/">
+        <span data-cursor-hover>advertising & distribution</span>
+        </router-link>
+        <router-link to="/">
+        <span data-cursor-hover>virtual shows</span>
+        </router-link>
+        <router-link to="/">
+        <span data-cursor-hover>travis x fortnite</span>
+        </router-link>
+        <router-link to="/">
+        <span data-cursor-hover>joji's extravaganza</span>
+        </router-link>
+        <router-link to="/">
+        <span data-cursor-hover>tomorrowland</span>
+        </router-link>
+        <router-link to="/">
+        <span data-cursor-hover>triller fight club</span>
+        </router-link>
     </Slide>
           <router-link to="/splash">
       <img data-cursor-hover @click="play" class="logo-top" src="@/assets/logo1_blue.svg" alt="">
@@ -28,7 +49,8 @@
     </kinesis-element>
     </kinesis-container>
       </article>
-      <section class="fewfacts" >
+
+      <section class="fewfacts" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1300">
         <div class="wrapping-content">
           <article>
             <kinesis-container>
@@ -38,21 +60,25 @@
             </kinesis-container>
               <p>it was reported that Spotify streams of the world’s biggest hits were actually down by..</p>
           </article>
+
           <article class="numberfact">
               <h2>11%</h2>
           </article>
+
         </div>
           <figure>
           </figure>
             <figure class="right-figure">
           </figure>
       </section>
-      <section class="facts">
+
+      <section class="facts" >
           <article>
             <p>Pollstar estimated the total lost revenue for the live music industry in 2020 at more than..</p>
-                        <h2>30$ billion</h2>
+            <h2>30$ billion</h2>
           </article>
       </section>
+
     <section class="outro-home">
         <div class="wrapping-content">
             <h3>Which also lead to a wave of cancellations of events, festivals, and tours</h3>
@@ -65,6 +91,7 @@
             <!-- <h4>welcome to pandeaming</h4> -->
         </div>
     </section>
+
     <section class="upnext">
     <kinesis-container>
       <kinesis-element :strength="18"  type="translate" >
@@ -101,14 +128,6 @@ export default {
         opacity: 0,
         delay: 3.4,
         y: 55,
-        stagger: 0.2,
-        ease: 'power3.out'
-      })
-      gsap.from('figure', {
-        duration: 1.8,
-        opacity: 0,
-        delay: 8,
-        y: 85,
         stagger: 0.2,
         ease: 'power3.out'
       })

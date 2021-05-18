@@ -4,6 +4,10 @@
     --pink: #ffb6ed;
     --beige: #fffdeb;
 }
+.smooth-vuebar {
+    max-width: 100vw;
+    max-height: 100vh;
+}
 
 ::-moz-selection {
     /* Code for Firefox */
@@ -436,7 +440,36 @@ margin-top: 5em;
     width: 1px !important;
     height: 24px !important;
 }
+.bm-cross-button {
+    height: 24px;
+    width: 24px !important;
+}
 .bm-menu {
     background-color: var(--blue) !important;
     z-index: 99 !important;
+    /* transition: all 0.6s ease !important; */
+}
+.bm-menu span{
+    font-size: 2.8em !important;
+    text-transform: uppercase;
+    transition: all 0.6s cubic-bezier(0,.64,.51,.97) !important;
+    line-height: 1 !important;
+    margin: 0.5% 0;
+    /* width: fit-content !important; */
+    /* font-family: 'Miratrix'; */
+    /* font-weight: normal !important; */
+}
+.bm-menu span:hover{
+    color: var(--pink);
+    margin-left: 3%;
+    /* padding-left: 3%; */
+}
+.nav-active{
+    text-decoration: line-through;
+    color: var(--pink) !important;
+    pointer-events: none;
+}
+
+cursor-fx{
+    mix-blend-mode: difference !important;
 }

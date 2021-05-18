@@ -1,7 +1,6 @@
 
 <template>
   <div id="app">
-    <router-view name="nav" class="nav"></router-view>
         <div class="loader">
           <div class="wrapping-content">
       <img src="@/assets/loadingscreen.gif" alt="">
@@ -11,9 +10,11 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
+        <div v-smoothscrollbar="{ listener, options }">
     <transition name="fade" mode="out-in">
     <router-view/>
     </transition>
+        </div>
 
         <cursor-fx>
     </cursor-fx>
