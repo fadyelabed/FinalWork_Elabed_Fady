@@ -2,29 +2,32 @@
 
   <div class="home intro">
     <Slide :width="1400" data-cursor-hover>
-        <router-link to="/">
+        <router-link to="">
           <span data-cursor-hover class="nav-active">Home</span>
         </router-link>
-        <router-link to="">
+        <router-link to="/sales">
         <span data-cursor-hover>sales & streaming</span>
         </router-link>
-        <router-link to="/">
+        <router-link to="/advertising">
         <span data-cursor-hover>advertising & distribution</span>
         </router-link>
-        <router-link to="/">
+        <router-link to="/virtualshows">
         <span data-cursor-hover>virtual shows</span>
         </router-link>
-        <router-link to="/">
+        <router-link to="/travis">
         <span data-cursor-hover>travis x fortnite</span>
         </router-link>
-        <router-link to="/">
+        <router-link to="/joji">
         <span data-cursor-hover>joji's extravaganza</span>
         </router-link>
-        <router-link to="/">
+        <router-link to="/tomorrowland">
         <span data-cursor-hover>tomorrowland</span>
         </router-link>
-        <router-link to="/">
+        <router-link to="/triller">
         <span data-cursor-hover>triller fight club</span>
+        </router-link>
+        <router-link to="/">
+        <p data-cursor-hover>return to index / startscreen</p>
         </router-link>
     </Slide>
           <router-link to="/splash">
@@ -50,37 +53,37 @@
     </kinesis-container>
       </article>
 
-      <section class="fewfacts" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1300">
+      <section class="fewfacts" >
         <div class="wrapping-content">
           <article>
             <kinesis-container>
                 <kinesis-element :strength="12"  type="depth" >
-                <h2>a few facts</h2>
+                <h2 data-aos="fade" data-aos-delay="500" data-aos-duration="1300">a few facts</h2>
                 </kinesis-element>
             </kinesis-container>
-              <p>it was reported that Spotify streams of the world’s biggest hits were actually down by..</p>
+              <p data-aos="fade-up" data-aos-delay="550" data-aos-duration="1300">it was reported that Spotify streams of the world’s biggest hits were actually down by..</p>
           </article>
 
           <article class="numberfact">
-              <h2>11%</h2>
+              <h2 data-aos="fade-left" data-aos-delay="300" data-aos-duration="1300">11%</h2>
           </article>
 
         </div>
-          <figure>
+          <figure data-aos="fade-up" data-aos-delay="300" data-aos-duration="1300">
           </figure>
-            <figure class="right-figure">
+            <figure class="right-figure" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1300">
           </figure>
       </section>
 
       <section class="facts" >
           <article>
-            <p>Pollstar estimated the total lost revenue for the live music industry in 2020 at more than..</p>
-            <h2>30$ billion</h2>
+            <p data-aos="fade"  data-aos-offset="800" data-aos-delay="300" data-aos-duration="1300">Pollstar estimated the total lost revenue for the live music industry in 2020 at more than..</p>
+            <h2 data-aos="fade-up" data-aos-offset="900" data-aos-delay="300" data-aos-duration="1300">30$ billion</h2>
           </article>
       </section>
 
-    <section class="outro-home">
-        <div class="wrapping-content">
+    <section class="outro-home" data-aos="fade" data-aos-delay="300" data-aos-duration="1300" data-aos-offset="500">
+        <div class="wrapping-content" >
             <h3>Which also lead to a wave of cancellations of events, festivals, and tours</h3>
             <h1>And thus began the rise of virtual events</h1>
             <article>
@@ -92,10 +95,12 @@
         </div>
     </section>
 
-    <section class="upnext">
+    <section class="upnext" >
     <kinesis-container>
       <kinesis-element :strength="18"  type="translate" >
-      <h1>up next</h1>
+      <router-link to="/sales">
+      <h1 data-cursor-hover>up next</h1>
+      </router-link>
       </kinesis-element>
     </kinesis-container>
       <h2>sales and streaming</h2>
@@ -123,7 +128,7 @@ export default {
   },
   methods: {
     startAnimations: function () {
-      gsap.from('.intro h1', {
+      gsap.from('.home h1', {
         duration: 1.5,
         opacity: 0,
         delay: 3.4,
