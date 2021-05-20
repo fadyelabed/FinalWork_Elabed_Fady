@@ -98,7 +98,7 @@
     <section class="upnext" >
     <kinesis-container>
       <kinesis-element :strength="18"  type="translate" >
-      <router-link to="/sales">
+      <router-link to="/sales#top">
       <h1 data-cursor-hover>up next</h1>
       </router-link>
       </kinesis-element>

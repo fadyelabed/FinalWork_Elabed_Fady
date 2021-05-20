@@ -1,7 +1,7 @@
 <template>
-  <div class="sales">
+  <div class="sales" id="top">
     <Slide :width="1400" data-cursor-hover>
-        <router-link to="">
+        <router-link to="/home">
           <span data-cursor-hover >Home</span>
         </router-link>
         <router-link to="/sales">
@@ -30,7 +30,7 @@
         </router-link>
     </Slide>
           <router-link to="/splash">
-      <img data-cursor-hover @click="play" class="logo-top" src="@/assets/logo1_blue.svg" alt="">
+      <img data-cursor-hover @click="play" class="logo-top"  src="@/assets/logo1_blue.svg" alt="">
           </router-link>
     <header>
       <div class="wrapping-content">
