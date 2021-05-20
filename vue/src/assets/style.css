@@ -399,6 +399,7 @@ margin-top: 5em;
     margin: 10% 0;
     line-height: 1;
 }
+
 .upnext{
     background-image: url('glitch.gif');
     background-size: 80%;
@@ -434,7 +435,7 @@ margin-top: 5em;
     z-index: 99;
 }
 .line-style {
-    height: 8% !important;
+    height: 9% !important;
 }
 .bm-cross {
     background: var(--beige) !important;
@@ -472,6 +473,9 @@ margin-top: 5em;
     margin-left: 3%;
     /* padding-left: 3%; */
 }
+.bm-burger-bars {
+    background-color: #000000;
+}
 .nav-active{
     text-decoration: line-through;
     color: var(--pink) !important;
@@ -480,4 +484,91 @@ margin-top: 5em;
 
 cursor-fx{
     mix-blend-mode: difference !important;
+}
+.sales{
+    background-color: var(--beige);
+}
+.sales .wrapping-content{}
+.sales header{
+    background-image: url('dollarorange.svg');
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-attachment: fixed;
+}
+.sales header h1{
+    color: var(--blue);
+    font-size: 12em;
+    margin: 0;
+    padding: 0 0%;
+    line-height: 1;
+}
+.sales header h2{
+    text-transform: uppercase;
+    float: left;
+}
+.sales header article{
+    width: 48%;
+    float: right;
+    line-height: 1.8;
+    padding: 0 3%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+    /* box-sizing: border-box; */
+}
+.sales header p{}
+.streaming{
+    background: #171717;
+}
+.streaming .wrapping-content{}
+.streaming h1{
+    color: var(--beige);
+    margin: 0;
+    line-height: 0.85;
+    padding-top: 2.5em;
+    margin-left: -1%;
+}
+.img-absolute{
+    width: 100%;
+}
+.streaming article{
+    width: 47%;
+    line-height: 2;
+    float: left;
+    padding: 2% 0;
+}
+.streaming article p{
+    color: white;
+}
+.streaming article img{
+    float: left;
+    width: 100%;
+    padding-left: 12%;
+}
+.listening{
+    background-color: var(--pink);
+    padding-top: 3em;
+    margin-top: -6%;
+    height: 80vh;
+    overflow: hidden;
+}
+.listening article{
+    width: 50%;
+    line-height: 2;
+}
+.listening article p{}
+.listening img{
+    width: 100%;
+}
+.salesnext{
+    background-image: url('advertising.gif') !important;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.salesnext h1{
+    color: white;
+}
+.salesnext h1:hover{
+    color: var(--blue);
 }
