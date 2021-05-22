@@ -261,6 +261,13 @@ a{
     /* margin: 1% 0; */
     text-align: center;
 }
+.logo-absolute{
+    position: absolute;
+    z-index: 98;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 7%;
+}
 .home img{}
 .home article{}
 .home article h1{
@@ -407,6 +414,20 @@ margin-top: 5em;
     text-align: center;
     margin: 0;
     padding: 20em 0;
+    position: relative;
+    z-index: 1;
+}
+.upnext:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    /* mix-blend-mode: multiply; */
+    opacity: 0.3;
+    z-index: -1;
 }
 .upnext h1{
     margin: 0;
@@ -424,6 +445,7 @@ margin-top: 5em;
     margin: auto;
     text-transform: uppercase;
     padding: 0.8% 1%;
+    z-index: 99;
 }
 .mask{
     background: black !important;
@@ -451,7 +473,7 @@ margin-top: 5em;
 }
 .bm-menu {
     background-color: var(--blue) !important;
-    z-index: 99 !important;
+    z-index: 999 !important;
     /* transition: all 0.6s ease !important; */
 }
 .bm-menu p{
@@ -480,7 +502,10 @@ margin-top: 5em;
     /* padding-left: 3%; */
 }
 .bm-burger-bars {
-    background-color: #000000;
+    background-color: #000000 !important;
+}
+.bm-burger-button {
+    z-index: 9 !important;
 }
 .nav-active{
     text-decoration: line-through;
@@ -577,4 +602,76 @@ cursor-fx{
 }
 .salesnext h1:hover{
     color: var(--blue);
+}
+.advertising{}
+.advertising header{
+    height: 100vh;
+    background-image: url('advertising.jpeg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.advertising header .wrapping-content{
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertising header::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--blue);
+    mix-blend-mode: multiply;
+    z-index: 0;
+}
+.advertising header h1{
+    color: var(--beige);
+    line-height: 1;
+    z-index: 99;
+    text-align: center;
+}
+.advertising-info{
+    background-color: white;
+    padding-top: 5em;
+}
+.advertising-info article{
+    width: 65%;
+}
+.advertising-info article h2{
+    text-transform: uppercase;
+}
+.advertising-info article p{
+    line-height: 1.8;
+}
+.advertising-info img{
+    margin-top: 3%;
+}
+.distribution{
+    background-color: var(--orange);
+    padding: 15em 0;
+    padding-top: 13em;
+    margin-top: -23em;
+}
+.distribution article{
+    width: 70%;
+}
+.distribution h1{
+    margin: 0;
+    margin-left: -1.25%;
+    color: var(--blue);
+}
+.distribution p{
+    line-height: 1.8;
+    color: var(--beige);
+}
+.adnext{
+    background-image: url('showsanimated.gif');
+    background-position: center;
+    background-size: 85%;
 }

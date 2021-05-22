@@ -70,7 +70,7 @@
     <section class="upnext salesnext">
     <kinesis-container>
       <kinesis-element :strength="18"  type="translate" >
-      <router-link to="/sales">
+      <router-link to="/advertising">
       <h1 data-cursor-hover>up next</h1>
       </router-link>
       </kinesis-element>
