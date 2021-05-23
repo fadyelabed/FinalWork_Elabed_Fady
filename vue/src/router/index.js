@@ -42,6 +42,11 @@ const routes = [
     path: '/advertising',
     name: 'advertising',
     component: () => import(/* webpackChunkName: "about" */ '../views/Advertising.vue')
+  },
+  {
+    path: '/virtualshows',
+    name: 'Virtualshows',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Virtualshows.vue')
   }
 ]
 

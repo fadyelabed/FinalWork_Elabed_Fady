@@ -1,6 +1,6 @@
 <template>
   <div class="advertising" id="top">
-    <Slide :width="1400" data-cursor-hover>
+    <Slide :width="1400" data-cursor-hover class="white-menu">
         <router-link to="/home">
           <span data-cursor-hover>Home</span>
         </router-link>
@@ -59,7 +59,7 @@
     <section class="upnext adnext">
     <kinesis-container>
       <kinesis-element :strength="18"  type="translate" >
-      <router-link to="/advertising">
+      <router-link to="/virtualshows">
       <h1 data-cursor-hover>up next</h1>
       </router-link>
       </kinesis-element>

@@ -504,6 +504,9 @@ margin-top: 5em;
 .bm-burger-bars {
     background-color: #000000 !important;
 }
+.white-menu .bm-burger-bars{
+    background-color: white !important;
+}
 .bm-burger-button {
     z-index: 9 !important;
 }
@@ -674,4 +677,80 @@ cursor-fx{
     background-image: url('showsanimated.gif');
     background-position: center;
     background-size: 85%;
+}
+.virtualshows{}
+.virtualshows header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+.virtualshows header article{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 25%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.8s ease;
+}
+.virtualshows header article::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    z-index: 0;
+    transition: all 0.8s ease;
+}
+.virtualshows header article:hover::before{
+    opacity: 0;
+}
+.virtualshows header article:hover h2{
+    opacity: 1;
+    /* font-size: 1.45em; */
+    transform: scale(1.6);
+}
+.virtualshows header article h2:hover {
+    text-shadow: 0px 1px 4px #00000090;
+}
+.virtualshows header article:hover {
+    background-position: 50%;
+}
+.virtualshows header article h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    padding: 0 2%;
+    box-sizing: border-box;
+    text-shadow: 0px 2px 8px #00000040;
+    z-index: 99;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0,.64,.51,.97);
+    transform: translateY(50);
+    line-height: 1;
+}
+.travis-thumb{
+    background-image: url('travfort_1.jpeg');
+}
+.joji-thumb{
+    background-image: url('jojiextra_1.jpeg');
+
+}
+.tomorrowland-thumb{
+    background-image: url('tmrwland.jpeg');
+
+}
+.triller-thumb{
+    background-image: url('jakepaul.jpeg');
+
 }
