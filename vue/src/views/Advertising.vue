@@ -34,16 +34,20 @@
           </router-link>
     <header>
       <div class="wrapping-content">
+         <kinesis-container>
+      <kinesis-element :strength="10"  type="depth" >
         <h1>advertising spend</h1>
+      </kinesis-element>
+         </kinesis-container>
       </div>
     </header>
     <section class="advertising-info">
       <div class="wrapping-content">
       <article>
-        <h2>There has also been reductions in advertising spending that are happening worldwide.</h2>
-        <p>A survey by the Interactive Advertising Bureau shows that around one quarter of brands and media buyers have put their advertising on hold for the first half of 2020. 46% of them have simply reduced spending. This result affects ad-supported music channels. Spotify also announced that it missed its first quarter advertising targets due to these changes in ad budgets.</p>
+        <h2 data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300">There has also been reductions in advertising spending that are happening worldwide.</h2>
+        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300">A survey by the Interactive Advertising Bureau shows that around one quarter of brands and media buyers have put their advertising on hold for the first half of 2020. 46% of them have simply reduced spending. This result affects ad-supported music channels. Spotify also announced that it missed its first quarter advertising targets due to these changes in ad budgets.</p>
       </article>
-              <img src="@/assets/distribution.jpeg" alt="">
+      <img data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300" src="@/assets/distribution.jpeg" alt="">
       </div>
     </section>
     <section class="distribution">
@@ -89,7 +93,7 @@ export default {
   },
   methods: {
     startAnimations: function () {
-      gsap.from('.home h1', {
+      gsap.from('.advertising h1', {
         duration: 1.5,
         opacity: 0,
         delay: 3.4,

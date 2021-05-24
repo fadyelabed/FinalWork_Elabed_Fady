@@ -97,10 +97,10 @@ export default {
   methods: {
     startAnimations: function () {
       gsap.from('article', {
-        duration: 0.85,
+        duration: 1.5,
         opacity: 0,
-        delay: 2,
-        y: 185,
+        delay: 1.5,
+        y: 485,
         stagger: 0.2,
         ease: 'power2.out'
       })

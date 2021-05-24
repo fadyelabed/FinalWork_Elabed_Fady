@@ -40,31 +40,31 @@
           <p>First one being live music. 50% of the total revenue come from sales of tickets for live performances and what not.</p>
           <p>The second one being recorded music. That includes revenue from streaming, digital downloads, physical sales and licensing revenues for movies, games, TV and advertising. Recorded music as of today is close to what the industry was before the piracy peak. Just goes to show the growth of streaming services by music labels and consumers. Half of recorded music revenue comes from streaming.</p>
         </article>
-                <img class="img-absolute" src="@/assets/streaming.jpeg" alt="">
+                <img class="img-absolute" src="@/assets/streaming.jpeg" alt="" data-aos="fade-up" data-aos-duration="1300" data-aos-offset="800">
 
       </div>
     </header>
     <section class="streaming">
       <div class="wrapping-content">
         <h1>sales & streaming</h1>
-        <article>
+        <article data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300">
           <p>During the start of this pandemic, physical sales went down by about one-third. Quick reminder that physical sales represent one quarter of recorded music revenue. Meanwhile digital sales fell around 11%.</p>
           <p>It has also been noticed by evidence that the way people listen to music slightly changed in light of coronavirus. Tencent Music Entertainment (TME, China) reported have reported these changes in listening behaviour, with more people using home applications on TV’s and smart devices.</p>
         </article>
         <article>
-        <img src="@/assets/records2.jpeg" alt="">
+        <img src="@/assets/records2.jpeg" alt="" data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="900" data-aos-offset="300">
         </article>
       </div>
     </section>
     <section class="listening">
         <div class="wrapping-content">
-          <article>
+          <article data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300">
             <p>In the first quarter of 2020, there was a noticeable increase in online music subscription revenue by 70%. A year-over-year of 50.4%, said Tsai Chun Pan, Group Vice President over at TME.</p>
             <p>Spotify has also noted seeing change in their consumers’ routine. “Daily habits are now reflected on weekend consumption, as well as relaxing genres rising in popularity”</p>
 
           </article>
         </div>
-    <img src="@/assets/listening_blue.svg" alt="">
+    <img data-aos="fade" data-aos-duration="1250" data-aos-offset="800" data-aos-delay="300" src="@/assets/listening_blue.svg" alt="" >
     </section>
 
     <section class="upnext salesnext">
@@ -100,12 +100,26 @@ export default {
   },
   methods: {
     startAnimations: function () {
-      gsap.from('.home h1', {
+      gsap.from('.sales h1', {
         duration: 1.5,
         opacity: 0,
         delay: 3.4,
         y: 55,
-        stagger: 0.2,
+        ease: 'power3.out'
+      })
+      gsap.from('.sales h2', {
+        duration: 0.8,
+        opacity: 0,
+        delay: 3.4,
+        y: 35,
+        ease: 'power3.out'
+      })
+      gsap.from('.sales article p', {
+        duration: 1.6,
+        opacity: 0,
+        delay: 4.6,
+        y: 35,
+        stagger: 0.4,
         ease: 'power3.out'
       })
     }
