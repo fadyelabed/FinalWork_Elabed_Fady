@@ -40,7 +40,7 @@
           <p>First one being live music. 50% of the total revenue come from sales of tickets for live performances and what not.</p>
           <p>The second one being recorded music. That includes revenue from streaming, digital downloads, physical sales and licensing revenues for movies, games, TV and advertising. Recorded music as of today is close to what the industry was before the piracy peak. Just goes to show the growth of streaming services by music labels and consumers. Half of recorded music revenue comes from streaming.</p>
         </article>
-                <img class="img-absolute" src="@/assets/streaming.jpeg" alt="" data-aos="fade-up" data-aos-duration="1300" data-aos-offset="800">
+                <img class="img-absolute" src="@/assets/streaming.jpeg" alt="" data-aos="fade-up" data-aos-duration="1300" data-aos-offset="400">
 
       </div>
     </header>
@@ -52,7 +52,7 @@
           <p>It has also been noticed by evidence that the way people listen to music slightly changed in light of coronavirus. Tencent Music Entertainment (TME, China) reported have reported these changes in listening behaviour, with more people using home applications on TV’s and smart devices.</p>
         </article>
         <article>
-        <img src="@/assets/records2.jpeg" alt="" data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="900" data-aos-offset="300">
+        <img src="@/assets/records2.jpeg" alt="" data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="900" >
         </article>
       </div>
     </section>
@@ -64,7 +64,7 @@
 
           </article>
         </div>
-    <img data-aos="fade" data-aos-duration="1250" data-aos-offset="800" data-aos-delay="300" src="@/assets/listening_blue.svg" alt="" >
+    <img data-aos="fade" data-aos-duration="1250" data-aos-offset="300" data-aos-delay="300" src="@/assets/listening_blue.svg" alt="" >
     </section>
 
     <section class="upnext salesnext">

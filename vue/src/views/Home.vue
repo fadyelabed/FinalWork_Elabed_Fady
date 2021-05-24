@@ -65,20 +65,20 @@
           </article>
 
           <article class="numberfact">
-              <h2 data-aos="fade-left" data-aos-delay="300" data-aos-duration="1300">11%</h2>
+              <h2 data-aos="fade-left" data-aos-delay="300" data-aos-duration="1300" >11%</h2>
           </article>
 
         </div>
           <figure data-aos="fade-up" data-aos-delay="300" data-aos-duration="1300">
           </figure>
-            <figure class="right-figure" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1300">
+            <figure class="right-figure" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1300" data-aos-offset="500">
           </figure>
       </section>
 
       <section class="facts" >
           <article>
-            <p data-aos="fade"  data-aos-offset="800" data-aos-delay="300" data-aos-duration="1300">Pollstar estimated the total lost revenue for the live music industry in 2020 at more than..</p>
-            <h2 data-aos="fade-up" data-aos-offset="900" data-aos-delay="300" data-aos-duration="1300">30$ billion</h2>
+            <p data-aos="fade" data-aos-duration="1300">Pollstar estimated the total lost revenue for the live music industry in 2020 at more than..</p>
+            <h2 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1300">30$ billion</h2>
           </article>
       </section>
 
