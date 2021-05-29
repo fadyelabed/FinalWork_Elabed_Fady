@@ -216,10 +216,12 @@ a{
 .aboutpage{
     background-color: var(--beige);
     height: 100vh;
-    background-image: url('isolation-blue.png');
+    /* background-image: url('isolation-blue.png');
     background-position: bottom;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+}
+.aboutpage img{
 }
 .aboutpage h2{
     font-weight: normal;
@@ -754,4 +756,95 @@ cursor-fx{
 .triller-thumb{
     background-image: url('jakepaul.jpeg');
 
+}
+.travis{}
+.travis header{
+
+}
+.travis header .wrapping-content{}
+.travis header {
+    height: 100vh;
+    background-image: url('fortnitelanding.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.travis header:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.4;
+    z-index: 0;
+}
+.travis header article{
+    color: white;
+    padding: 7em 0;
+}
+.travis header article h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.travis header article h1{
+    margin: 0;
+    font-size: 9em;
+    line-height: 0.85;
+    margin: 0;
+}
+.astronomical{
+    background-color: black;
+    overflow: hidden;
+    background-image: url('stars.png');
+    background-attachment: fixed;
+    height: 130vh;
+}
+.astronomical figure{
+    position: relative;
+}
+.astronomical img{
+    width: 68%;
+}
+.astro-info{
+    background-color: black;
+}
+.astro-info .wrapping-content{}
+.astro-info article{
+    color: white;
+    padding: 5em 0;
+    width: 60%;
+}
+.astro-info article p{
+    line-height: 1.8;
+    margin: 1.5% 0;
+}
+.fortlogo{
+    margin: auto;
+    display: block;
+    padding: 35em 0;
+    padding-top: 30em;
+    width: 36% !important;
+    transform: translateZ(100);
+    transform: translate(0%, 0);
+}
+.flex-center{}
+.fort1{
+    top: 0;
+    transform: translate(-20%, -256%);
+    transform: translateZ(-100);
+    z-index: -50;
+    width: 48% !important;
+}
+.fort2{
+    transform: translate(190%, -206%);
+    z-index: -50;
+    width: 38% !important;
+}
+.fort3{
+    transform: translate(0%, -296%);
 }

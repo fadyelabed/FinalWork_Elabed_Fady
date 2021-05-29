@@ -47,6 +47,11 @@ const routes = [
     path: '/virtualshows',
     name: 'Virtualshows',
     component: () => import(/* webpackChunkName: "about" */ '../views/Virtualshows.vue')
+  },
+  {
+    path: '/travis',
+    name: 'travis',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Travis.vue')
   }
 ]
 
