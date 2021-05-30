@@ -66,6 +66,65 @@
         </article>
               </div>
     </section>
+    <section class="fortnite-video">
+        <video controls>
+            <source src="@/assets/fortnite.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="wrapping-content">
+        <h1>Setting the bar high, like really</h1>
+        <article>
+            <p>The event itself lasted around 15 minutes, with multiple showings going around at different times for different regions. Players were gathered around the stage before things popped off. Check the video above to watch some scenes of the event. Players were assigned some emotes/dances they could use throughout the performance. As giant sized Travis came smashing down on the stage, it changed the whole island’s appearance. The artist sang his most well known songs and between each song transition, players were teleported, dragged and flown around various different atmospheres that were truly mesmerising. Not to forget this event was free for anyone to join, since the game itself is free, which made this show so accesible.</p>
+        </article>
+        </div>
+    </section>
+    <section class="fort-item">
+        <div class="wrapping-content">
+            <img src="@/assets/fortitem1.jpeg" alt="">
+            <img src="@/assets/fortitem2.jpeg" alt="">
+            <article>
+                <p>Before the event, they released cosmetic add-ons for players to buy such as the Travis skin, his outfits, emotes and more.</p>
+            </article>
+            <h2>This event really set the bar for what’s possible in the future for these types of shows. Fortnite set an all-time record for most concurrent players in a video game ever. Going over..</h2>
+            <h1>12.3 million concurrents!</h1>
+        </div>
+    </section>
+    <section class="upnext-shows">
+      <!-- <h1>up next</h1> -->
+      <section>
+        <router-link to="/joji">
+        <article class="joji-thumb">
+         <kinesis-container>
+        <kinesis-element :strength="18"  type="depth" >
+            <h2 data-cursor-hover>joji's
+               <br> extravaganza</h2>
+        </kinesis-element>
+         </kinesis-container>
+        </article>
+        </router-link>
+
+        <router-link to="/tomorrowland">
+        <article class="tomorrowland-thumb">
+         <kinesis-container>
+        <kinesis-element :strength="18"  type="depth" >
+            <h2 data-cursor-hover>tomorrowland:
+              <br>around the world</h2>
+        </kinesis-element>
+         </kinesis-container>
+        </article>
+
+        </router-link>
+        <router-link to="/triller">
+        <article class="triller-thumb">
+         <kinesis-container>
+        <kinesis-element :strength="18"  type="depth" >
+            <h2 data-cursor-hover> triller fight club</h2>
+        </kinesis-element>
+         </kinesis-container>
+        </article>
+        </router-link>
+      </section>
+    </section>
     <cursor-fx>
     </cursor-fx>
   </div>

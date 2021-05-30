@@ -30,23 +30,23 @@
         </router-link>
     </Slide>
     <router-link to="/splash">
-      <img data-cursor-hover @click="play" class="logo-top logo-absolute"  src="@/assets/logo1_white.svg" alt="">
+      <img  data-cursor-hover @click="play"  class="logo-top logo-absolute"  src="@/assets/logo1_white.svg" alt="">
     </router-link>
     <header>
-        <router-link to="/travis">
-        <article class="travis-thumb">
+        <router-link to="/travis" >
+        <article class="travis-thumb" >
         <kinesis-container>
         <kinesis-element :strength="18"  type="depth" >
-            <h2 data-cursor-hover>travis scott x fortnite </h2>
+            <h2  @mouseover="play({ id: 'travis' })" @mouseleave="stop" data-cursor-hover>travis scott x fortnite </h2>
         </kinesis-element>
         </kinesis-container>
         </article>
         </router-link>
         <router-link to="/joji">
         <article class="joji-thumb">
-         <kinesis-container>
+        <kinesis-container>
         <kinesis-element :strength="18"  type="depth" >
-            <h2 data-cursor-hover>joji's
+            <h2 @mouseover="play({ id: 'joji' })" @mouseleave="stop" data-cursor-hover>joji's
                <br> extravaganza</h2>
         </kinesis-element>
          </kinesis-container>
@@ -57,7 +57,7 @@
         <article class="tomorrowland-thumb">
          <kinesis-container>
         <kinesis-element :strength="18"  type="depth" >
-            <h2 data-cursor-hover>tomorrowland:
+            <h2 @mouseover="play({ id: 'netsky' })" @mouseleave="stop" data-cursor-hover>tomorrowland:
               <br>around the world</h2>
         </kinesis-element>
          </kinesis-container>
@@ -67,7 +67,7 @@
         <article class="triller-thumb">
          <kinesis-container>
         <kinesis-element :strength="18"  type="depth" >
-            <h2 data-cursor-hover> triller fight club</h2>
+            <h2 @mouseover="play({ id: 'problems' })" @mouseleave="stop" data-cursor-hover> triller fight club</h2>
         </kinesis-element>
          </kinesis-container>
         </article>
@@ -80,7 +80,9 @@
 
 <script>
 import { useSound } from '@vueuse/sound'
-import backButtonSfx from '../assets/menubacksfx.mp3'
+// import backButtonSfx from '../assets/menubacksfx.mp3'
+// import goosebumps from '../assets/goosebumps.mp3'
+import shows from '../assets/shows.mp3'
 import { gsap } from 'gsap'
 import { Slide } from 'vue-burger-menu'
 
@@ -107,9 +109,18 @@ export default {
     }
   },
   setup () {
-    const { play } = useSound(backButtonSfx)
+    // const { play, stop } = useSound(backButtonSfx)
+    const { play, stop } = useSound(shows, {
+      sprite: {
+        travis: [0, 18250],
+        joji: [18850, 37200],
+        netsky: [38200, 56140],
+        problems: [56140, 115110]
+      }
+    })
     return {
-      play
+      play,
+      stop
     }
   }
 }
