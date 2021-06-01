@@ -32,7 +32,12 @@
           <router-link to="/splash">
       <img data-cursor-hover @click="play" class="logo-top logo-absolute"  src="@/assets/logo1_white.svg" alt="">
           </router-link>
+
+    <span class="mute-btn" onclick="muteAudio()"></span>
     <header>
+      <video autoplay muted loop id="myVideo">
+        <source src="@/assets/travisheader.mp4" type="video/mp4">
+      </video>
       <div class="wrapping-content">
           <article>
           <h2>April 23 - 25 / 2020</h2>
@@ -78,6 +83,10 @@
         </article>
         </div>
     </section>
+        <audio id="bgsong" autoplay>
+      <source src="@/assets/goosebumps.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
     <section class="fort-item">
         <div class="wrapping-content">
             <img src="@/assets/fortitem1.jpeg" alt="">
@@ -165,5 +174,4 @@ export default {
     }
   }
 }
-
 </script>

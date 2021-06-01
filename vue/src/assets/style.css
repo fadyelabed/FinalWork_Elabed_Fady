@@ -761,10 +761,21 @@ cursor-fx{
 .travis header{
 
 }
+audio{
+    display: initial !important;
+}
+.travis header video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
 .travis header .wrapping-content{}
 .travis header {
     height: 100vh;
-    background-image: url('fortnitelanding.jpg');
+    /* background-image: url('fortnitelanding.jpg'); */
     position: relative;
     background-position: center;
     background-size: cover;
