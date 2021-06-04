@@ -34,7 +34,7 @@
           </router-link>
 
     <span class="mute-btn" onclick="muteAudio()"></span>
-    <header>
+    <header class="videoheader">
       <video autoplay muted loop id="myVideo">
         <source src="@/assets/travisheader.mp4" type="video/mp4">
       </video>

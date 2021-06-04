@@ -1,5 +1,9 @@
 <template>
   <div class="splash">
+    <audio id="bgsong" autoplay loop>
+      <source src="@/assets/transpsoul.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
     <kinesis-container>
       <kinesis-element :strength="12"  type="depth" >
         <div class="wrapping-content">

@@ -725,6 +725,9 @@ cursor-fx{
 .virtualshows header article h2:hover {
     text-shadow: 0px 1px 4px #00000090;
 }
+.virtualshows header h2:hover .joji-thumb {
+    filter: brightness(1.2);
+}
 .virtualshows header article:hover {
     background-position: 50%;
 }
@@ -764,7 +767,7 @@ cursor-fx{
 audio{
     display: initial !important;
 }
-.travis header video{
+.videoheader video{
     position: fixed;
     right: 0;
     bottom: 0;
@@ -773,7 +776,7 @@ audio{
     z-index: -1;
 }
 .travis header .wrapping-content{}
-.travis header {
+.videoheader {
     height: 100vh;
     /* background-image: url('fortnitelanding.jpg'); */
     position: relative;
@@ -782,7 +785,7 @@ audio{
     display: flex;
     align-items: flex-end;
 }
-.travis header:before {
+.videoheader:before {
     content: '';
     position: absolute;
     left: 0;
@@ -793,16 +796,16 @@ audio{
     opacity: 0.4;
     z-index: 0;
 }
-.travis header article{
+.videoheader article{
     color: white;
     padding: 7em 0;
 }
-.travis header article h2{
+.videoheader article h2{
     margin: 0;
     text-transform: uppercase;
     font-weight: normal;
 }
-.travis header article h1{
+.videoheader article h1{
     margin: 0;
     font-size: 9em;
     line-height: 0.85;
@@ -978,4 +981,72 @@ audio{
     transition: all 0.8s cubic-bezier(0,.64,.51,.97);
     transform: translateY(50);
     line-height: 1;
+}
+
+.joji-about{
+    background: #101010;
+    position: relative;
+    padding: 5rem 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.joji-about h1{
+    font-size: 14em;
+    color: var(--orange);
+    line-height: 0.8;
+    margin: 0;
+    z-index: 1;
+}
+.joji-about article{
+    color: white;
+    width: 40%;
+    z-index: 1;
+    position: absolute;
+    bottom: 10%;
+    background: var(--beige);
+    padding: 2% 2%;
+}
+.joji-about article p{
+    line-height: 1.8;
+    font-size: 1.2em;
+    color: black;
+}
+.joji-about img{
+    float: right;
+    width: 70%;
+    margin-top: -3%;
+}
+.joji-intro{
+    background-color: var(--pink);
+    padding: 9em 0;
+}
+.joji-intro article{
+    width: 70%;
+}
+.joji-intro article p{
+    line-height: 1.8;
+}
+.joji-intro article span{
+    text-decoration: underline;
+}
+.joji-shows{
+    background-color: var(--beige);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joji-shows article{
+    width: 45%;
+    float: left;
+}
+.padding-article{
+    padding: 0 5%;
+    width: 80%;
+}
+.joji-shows article p{
+    line-height: 1.8;
+}
+.joji-shows video{
+    width: 100%;
 }
