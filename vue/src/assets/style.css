@@ -1041,8 +1041,8 @@ audio{
     clear: both;
 }
 .padding-article{
-    width: 54%;
-    padding: 6rem 8rem;
+    width: 58%;
+    padding: 6rem 5rem;
     /* font-size: 1em; */
     text-transform: uppercase;
 }
@@ -1089,9 +1089,13 @@ audio{
     text-emphasis: none;
     overflow: hidden;
 }
-.bg-orange article {}
+.bg-orange article {
+    float: left;
+    width: 35%;
+    padding: 5% ;
+}
 .bg-orange video{
-    width: 60%;
+    width: 55%;
 }
 .bg-dark{
     background-color: #101010;
@@ -1103,4 +1107,74 @@ audio{
 .bg-dark p{
     color: white;
     font-size: 1.2em !important;
+}
+.tmrw-intro{
+    background: #0a0a0a;
+    color: white;
+}
+.tmrw-intro article{
+    padding: 5rem 0;
+    width: 59%;
+}
+.tmrw-intro article p{
+    line-height: 2;
+    margin: 0;
+}
+.tmrw-highlights{
+    background: #0a0a0a;
+}
+.tmrw-highlights h2{
+    color: white;
+    text-transform: uppercase;
+}
+.tmrw-highlights section{
+    float: left;
+    width: 21%;
+    margin-right: 4%;
+}
+.tmrw-highlights section article{}
+.tmrw-highlights section h2{
+    color: var(--pink);
+    margin: 0;
+    font-size: 8em;
+}
+.tmrw-highlights section img{
+    height: 30px;
+}
+.tmrw-highlights section p{
+    color: white;
+    margin: 0;
+    font-size: 0.8em;
+    line-height: 1.8;
+}
+.tmrw-highlights figure{
+    padding: 0;
+    margin: 0;
+    margin-top: 3rem;
+}
+.tmrw-highlights figure img{
+    width: 50%;
+}
+
+.tmrw-bts{
+    background: #0a0a0a;
+    overflow: hidden;
+}
+.tmrw-bts video{
+    width: 52%;
+    float: left;
+}
+.tmrw-bts article{
+    color: white;
+    padding: 5rem 0;
+    width: 50%;
+}
+.tmrw-bts article p{
+    line-height: 1.8;
+}
+.tomorrowland .float-left{
+    float: left;
+    width: 48%;
+    padding: 9rem 5rem;
+    box-sizing: border-box;
 }
