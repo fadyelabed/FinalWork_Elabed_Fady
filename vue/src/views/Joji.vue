@@ -63,20 +63,56 @@
     <section class="joji-intro">
       <div class="wrapping-content">
       <article>
-        <p>Most of the songs being from his latest project, but also included some fan-favorites such as <span>'Yeah Right'</span>, <span>'Slow Dancing in The Dark'</span> and <span>'Attention'</span>. This whole show was full of surprises. Filled with various skits, talent shows, different challenges in between and during performances. Each of them representing the artist's personality in a comedic manner.</p>
+        <p>Most of the songs being from his latest project, but also included some fan-favorites such as '<span>Yeah Right</span>', '<span>Slow Dancing in The Dark</span>' and '<span>Attention</span>'. This whole show was full of surprises. Filled with various skits, talent shows, different challenges in between and during performances. Each of them representing the artist's personality in a comedic manner.</p>
       </article>
       </div>
     </section>
     <section class="joji-shows">
-      <article>
         <video controls>
             <source src="@/assets/sanctuary.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-      </article>
-        <article class="padding-article">
+        <article class="padding-article float-right">
           <p>Opening the show sitting atop a dunk tank while singing 'Sanctuary', various candidates took their turn to disrupt Joji's singing. Reaching the end, a baseball player got his turn and managed to get the job done. Leaving the singer behind singing in deep water.</p>
         </article>
+    </section>
+    <section class="joji-shows">
+        <img src="@/assets/attention.png" alt="">
+        <img src="@/assets/tiktok.png" alt="">
+        <article class="padding-article text-center">
+<p>Across all performances you'll see him make interesting costume choices that may leave u distracted. Such as his follow-up performance, when he sang 'Attention' while wearing a horse costume.</p>
+        </article>
+    </section>
+     <section class="joji-shows">
+        <video class="float-right" controls>
+            <source src="@/assets/yourman.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <article class="padding-article" >
+        <p>Not only can George sing, but he can also multitask as well, seen in his performance 'Your Man' where he makes an omelette while singing. The stars backdrop combined with the aliens assisting him in his cooking makes for quite an enjoyable performance.</p>
+        </article>
+    </section>
+    <section class="joji-shows bg-orange">
+        <article class="padding-article">
+          <p>Now I wont be talking about every single performance of the show, but some of the more memorable performance were the ones like 'Pretty Boy' where he was performing in an octagon as the referee while 2 fighters battled their way through victory. Or during 'Run' as the singer went through an obstacle course and ended up on a treadmill literally running while performing his song called 'Run'.</p>
+        </article>
+        <video class="float-right" autoplay muted loop>
+            <source src="@/assets/prettyboy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video class="float-left" autoplay muted loop>
+            <source src="@/assets/run.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+      <section class="joji-shows bg-dark">
+        <div class="wrapping-content">
+
+        <article class="padding-article">
+<p>This whole theatrical event just reminded us that this singer- songwriter was once a celebrated internet personality known as Filthy Frank. He pulled off an out of the ordinary enjoyable, unexpected show. Setting the bar high for future digital concerts, and setting himself aside from the generic regular live shows where artists just perform their songs and call it a day.</p>
+        </article>
+        </div>
+
     </section>
     <section class="upnext-shows">
       <!-- <h1>up next</h1> -->
@@ -85,7 +121,7 @@
         <article class="travis-thumb" >
         <kinesis-container>
         <kinesis-element :strength="18"  type="depth" >
-            <h2  @mouseover="play({ id: 'travis' })" @mouseleave="stop" data-cursor-hover>travis scott x fortnite </h2>
+            <h2 data-cursor-hover>travis scott x fortnite </h2>
         </kinesis-element>
         </kinesis-container>
         </article>

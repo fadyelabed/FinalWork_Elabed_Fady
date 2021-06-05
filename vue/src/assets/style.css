@@ -999,7 +999,7 @@ audio{
 }
 .joji-about article{
     color: white;
-    width: 40%;
+    width: 34%;
     z-index: 1;
     position: absolute;
     bottom: 10%;
@@ -1008,7 +1008,7 @@ audio{
 }
 .joji-about article p{
     line-height: 1.8;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     color: black;
 }
 .joji-about img{
@@ -1026,27 +1026,81 @@ audio{
 .joji-intro article p{
     line-height: 1.8;
 }
-.joji-intro article span{
+.joji article span{
     text-decoration: underline;
 }
 .joji-shows{
     background-color: var(--beige);
     overflow: hidden;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .joji-shows article{
-    width: 45%;
     float: left;
+    clear: both;
 }
 .padding-article{
-    padding: 0 5%;
-    width: 80%;
+    width: 54%;
+    padding: 6rem 8rem;
+    /* font-size: 1em; */
+    text-transform: uppercase;
 }
 .joji-shows article p{
     line-height: 1.8;
+    /* width: 78%; */
+    font-size: 2em;
 }
 .joji-shows video{
-    width: 100%;
+    width: 70%;
+}
+.float-right {
+    float: right !important;
+}
+.float-left {
+}
+.joji-shows img{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.text-center{
+    text-align: center;
+    width: 85%;
+    display: block !important;
+    margin: auto !important;
+    padding: 5rem 0;
+    float: none !important;
+}
+.text-center p{
+    margin: 0;
+}
+.bg-orange{
+    background-color: var(--orange) !important;
+}
+.bg-orange video:nth-child(3){
+    margin-top: -8%;
+    float: left;
+}
+.bg-orange article p{
+    color: beige;
+    text-transform: none;
+    font-size: initial;
+    text-emphasis: none;
+    overflow: hidden;
+}
+.bg-orange article {}
+.bg-orange video{
+    width: 60%;
+}
+.bg-dark{
+    background-color: #101010;
+}
+.bg-dark article{
+    width: 85%;
+    padding: 8rem 0;
+}
+.bg-dark p{
+    color: white;
+    font-size: 1.2em !important;
 }
