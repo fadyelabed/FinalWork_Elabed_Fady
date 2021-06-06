@@ -103,9 +103,16 @@
             Your browser does not support the video tag.
         </video>
         <article class="float-left">
-                                  <p>Here's a closer look at some of the behind the scenes. Mainstream artist Martin Garrix explains how they reached out to him, also explaining how everything fell into place.</p>
+            <p>Here's a closer look at some of the behind the scenes. Mainstream artist Martin Garrix explains how they reached out to him, also explaining how everything fell into place.</p>
             <p>2020's digital edition of Tomorrowland was considered a huge success. It won the prestigious FWA of the Month (the largest online award program in digital design and development) and selected as an Official Webby Award Winner (the leading international award honoring excellence on the internet). This edition was praised for pushing boundaries using cutting-edge technology to really immerse the fans into a digital experience like never before.</p>
         </article>
+        <article class="float-left">
+            <p>Here's one of Katy Perry's performances. Take a look at how she performed her hit song 'Fireworks'. You also get to see the 3D environment/stage and atmosphere in all its glory.</p>
+        </article>
+        <video controls class="float-right">
+            <source src="@/assets/katyperry.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </section>
     <section class="upnext-shows">
       <!-- <h1>up next</h1> -->

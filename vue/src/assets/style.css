@@ -119,7 +119,47 @@ a{
     opacity: 0;
     padding: 0 15px;
 }
+.mobile-splash{
+    height: 100vh;
+    position: fixed;
+    background: #3100ff;
+    width: 100%;
+    z-index: 999999;
+    display: none;
+    align-items: center;
+}
+.mobile-splash .wrapping-content{}
+.mobile-splash img{
+    height: 150px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    /* top: 0; */
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 8%;
+}
+.mobile-splash article{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.mobile-splash article img{
+    height: 73px;
+    position: initial;
+    transform: none;
+}
+.mobile-splash h2{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.8;
+}
+@media only screen and (max-width: 700px) {
 
+    .mobile-splash{
+        display: flex;
+    }
+}
 .pandemic{
 }
 .streaming{}
