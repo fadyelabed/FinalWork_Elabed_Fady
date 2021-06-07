@@ -135,7 +135,6 @@
         </kinesis-element>
          </kinesis-container>
         </article>
-
         </router-link>
         <router-link to="/triller">
         <article class="triller-thumb">

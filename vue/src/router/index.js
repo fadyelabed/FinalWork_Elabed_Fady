@@ -62,6 +62,11 @@ const routes = [
     path: '/tomorrowland',
     name: 'tomorrowland',
     component: () => import(/* webpackChunkName: "about" */ '../views/Tomorrowland.vue')
+  },
+  {
+    path: '/triller',
+    name: 'triller',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Triller.vue')
   }
 ]
 

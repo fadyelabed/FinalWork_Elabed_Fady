@@ -154,7 +154,7 @@ a{
     font-size: 1em;
     line-height: 1.8;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
     .mobile-splash{
         display: flex;
@@ -603,6 +603,7 @@ cursor-fx{
     line-height: 0.85;
     padding-top: 2.5em;
     margin-left: -1%;
+    margin-top: -5%;
 }
 .img-absolute{
     width: 100%;
@@ -1217,4 +1218,120 @@ audio{
     width: 48%;
     padding: 9rem 5rem;
     box-sizing: border-box;
+}
+.tysonjones{
+    background-color: #080808;
+    overflow: hidden;
+    /* background-image: url('tysonjones.webp');
+    background-position: right;
+    background-repeat: no-repeat; */
+}
+.tysonjones img{
+    float: right;
+
+}
+.trillerlogo{
+
+    width: 30%;
+    margin-right: 5%;
+
+}
+.tysonjones .wrapping-content{}
+.tysonjones article{
+    width: 55%;
+    float: left;
+}
+.tysonjones article p{
+    color: white;
+    line-height: 1.8;
+}
+.tysonjones h1{
+    color: var(--beige);
+    line-height: 0.8;
+    font-size: 8em;
+    margin-bottom: 4%;
+}
+.jakepaul{
+    background-color: #080808;
+    overflow: hidden;
+}
+.jakepaul article{
+    width: 55%;
+    padding: 4rem 0;
+}
+.jakepaul article p{
+    color: white;
+    line-height: 1.8;
+}
+.jakepaul img{}
+.jakepaul img:nth-child(2){
+    width: 54%;
+    margin-left: -6%;
+}
+.jakepaul img:nth-child(3){
+    width: 64%;
+    float: right;
+    margin-top: -18%;
+}
+
+.askren{
+    background: var(--pink);
+    overflow: hidden;
+}
+.askren article{
+    padding: 5rem 0;
+    width: 72%;
+    float: left;
+}
+.askren article p{
+    line-height: 1.8;
+}
+.askren img{}
+
+.askren figure{
+    margin: 0;
+    padding-bottom: 5rem;
+}
+.askren figure img{
+    width: 25%;
+}
+.askren figure img:nth-child(even){
+    margin-bottom: -5%;
+}
+
+.jake-askren1{
+    width: 47%;
+    float: left;
+}
+.jake-askren2{
+    width: 53%;
+    /* margin-top: 5%; */
+}
+.jake-askren3{
+    margin-top: -5%;
+    width: 65%;
+    float: left;
+}
+.jake-askren h2{
+    text-transform: uppercase;
+    margin-top: 4%;
+}
+.jake-askren h2:nth-child(2){
+}
+.jake-askren h2:nth-child(3){
+    text-align: center;
+    margin-bottom: 6%;
+}
+.jake-askren h1{
+    margin: 0;
+    line-height: 0.8;
+    text-align: center;
+    margin-top: 7%;
+}
+.trillernext{
+    background-image: url('upnext-triller.gif');
+    background-repeat: repeat;
+}
+.trillernext h1{
+    color: white;
 }
