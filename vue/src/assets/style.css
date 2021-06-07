@@ -1411,3 +1411,36 @@ footer img{
 .conclusion footer p:hover{}
 footer span{
 }
+.bronnen{
+    background: #3100ff !important;
+    height: 100vh;
+}
+.bronnen p{
+    color: white;
+    transition: all 0.6s ease;
+}
+.bronnen a:hover{
+    color: var(--pink);
+}
+.bronnen a{
+    color: white;
+    clear: both;
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 1%;
+    transition: all 0.6s ease;
+    width: fit-content;
+}
+.bronnen .wrapping-content{}
+.bronnen .arrowleft{
+    width: fit-content;
+    margin-top: 1rem;
+    padding: 1% 0;
+    width: 30%;
+    transform: rotate(90deg);
+    transition: all 0.4s ease;
+
+}
+.bronnen .arrowleft:hover{
+    transform: rotate(60deg);
+}
