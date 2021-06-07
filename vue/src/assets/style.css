@@ -1335,3 +1335,79 @@ audio{
 .trillernext h1{
     color: white;
 }
+.the-end{
+    background: #3100ff !important;
+    /* height: 90vh; */
+}
+.the-end h1{
+    text-align: center;
+    color: white;
+    line-height: 0.9;
+    margin: 0;
+}
+.arrowdown{
+    height: 85px;
+    margin: auto;
+    display: block;
+    padding: 5rem 0;
+}
+.whats-next{
+    background: #3100ff !important;
+
+}
+.whats-next h2{
+    text-transform: uppercase;
+    color: var(--pink);
+}
+.whats-next article{
+    width: 75%;
+    color: white;
+    padding-bottom: 5rem;
+}
+.whats-next article p{
+    line-height: 1.8;
+}
+.conclusion footer{
+    padding: 2rem 0;
+}
+.conclusion footer p{
+    text-transform: uppercase;
+    margin-top: 0;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    color: white;
+    width: fit-content;
+    padding-bottom: 0.5%;
+    transition: all 0.6s ease;
+}
+.conclusion footer p:hover{
+    border-bottom: 1px solid white;
+}
+.src-btn{
+    float: left;
+}
+footer img{
+    height: 18px;
+    margin-right: 0.5%;
+    float: left;
+}
+.port-btn{
+    float: right;
+}
+.index-btn{
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: white;
+    width: fit-content;
+    padding: 0.5% 1.5%;
+    padding-top: 0.7%;
+    transition: all 0.6s ease;
+    margin: 0;
+}
+.index-btn:hover{
+    background-color: white;
+    color: var(--blue);
+}
+.conclusion footer p:hover{}
+footer span{
+}
