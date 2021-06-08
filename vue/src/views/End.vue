@@ -1,7 +1,7 @@
 <template>
   <div class="conclusion" id="top">
     <router-link to="/">
-      <img data-cursor-hover @click="play" class="logo-top"  src="@/assets/logo1_white.svg" alt="">
+      <img data-cursor-hover @click="play" class="logo-top"  src="@/assets/logo2_white.svg" alt="">
     </router-link>
     <section class="the-end">
          <kinesis-container>
@@ -31,7 +31,7 @@
             <p>At the time I'm writing this, the pandemic seems to come slowly to an end. Countries are getting vaccinated, things are getting back to normal so assuming that this whole digital event wave will not return any time soon would be a stretch. Now all though I do think the following months these online events will reduce in numbers, I'm sure that this pandemic has been a good exercise for organisations to go all out in putting out these events. They've probably learned a lot from this and can take notes as to some things they might have had issues with. Streaming and distribution wise, we'll see a rise again, making the numbers back like it used to be and since in-person events are slowly allowed again, artists will likely release new projects and go on tours as well.</p>
             <p>I hope you enjoyed this project of mine. I've spent the last year working on my Final Work, this in collaboration with Erasmushogeschool Brussel. You can find the used resources down below and check my portfolio as well!</p>
         <router-link to="/">
-        <p class="index-btn" data-cursor-hover>return home</p>
+        <p class="index-btn" data-cursor-hover @click="play">return to start</p>
         </router-link>
             </article>
 

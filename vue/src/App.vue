@@ -13,7 +13,7 @@
         <div class="loader">
           <div class="wrapping-content">
       <img src="@/assets/loadingscreen.gif" alt="">
-                </div>
+            </div>
     </div>
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |

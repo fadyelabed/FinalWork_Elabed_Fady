@@ -30,7 +30,7 @@
         </router-link>
     </Slide>
     <router-link to="/splash">
-      <img  data-cursor-hover @click="play"  class="logo-top logo-absolute"  src="@/assets/logo1_white.svg" alt="">
+      <img  data-cursor-hover @click="play"  class="logo-top logo-absolute"  src="@/assets/logo3_white.svg" alt="">
     </router-link>
     <header>
         <router-link to="/travis" >
@@ -82,7 +82,7 @@
 import { useSound } from '@vueuse/sound'
 // import backButtonSfx from '../assets/menubacksfx.mp3'
 // import goosebumps from '../assets/goosebumps.mp3'
-import shows from '../assets/shows.mp3'
+import shows from '../assets/shows2.mp3'
 import { gsap } from 'gsap'
 import { Slide } from 'vue-burger-menu'
 
@@ -99,7 +99,7 @@ export default {
   methods: {
     startAnimations: function () {
       gsap.from('article', {
-        duration: 1.5,
+        duration: 1,
         opacity: 0,
         delay: 1.5,
         y: 485,

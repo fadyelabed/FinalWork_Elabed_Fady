@@ -1,36 +1,36 @@
 <template>
   <div class="advertising" id="top">
-    <Slide :width="1400" data-cursor-hover class="white-menu">
+      <Slide :width="1400" data-cursor-hover @click="play({ id:'navitem1'})" class="white-menu">
         <router-link to="/home">
-          <span data-cursor-hover>Home</span>
+          <span @mouseover="play({ id: 'navitem1' })" @mouseleave="stop" data-cursor-hover >Home</span>
         </router-link>
         <router-link to="/sales">
-        <span data-cursor-hover >sales & streaming</span>
+        <span @mouseover="play({ id: 'navitem2' })" data-cursor-hover >sales & streaming</span>
         </router-link>
         <router-link to="/advertising">
         <span data-cursor-hover class="nav-active">advertising & distribution</span>
         </router-link>
         <router-link to="/virtualshows">
-        <span data-cursor-hover>virtual shows</span>
+        <span @mouseover="play({ id: 'navitem3' })" @mouseleave="stop" data-cursor-hover>virtual shows</span>
         </router-link>
         <router-link to="/travis">
-        <span data-cursor-hover>travis x fortnite</span>
+        <span @mouseover="play({ id: 'navitem4' })" @mouseleave="stop" data-cursor-hover>travis x fortnite</span>
         </router-link>
         <router-link to="/joji">
-        <span data-cursor-hover>joji's extravaganza</span>
+        <span @mouseover="play({ id: 'navitem5' })" @mouseleave="stop" data-cursor-hover>joji's extravaganza</span>
         </router-link>
         <router-link to="/tomorrowland">
-        <span data-cursor-hover>tomorrowland</span>
+        <span @mouseover="play({ id: 'navitem6' })" @mouseleave="stop" data-cursor-hover>tomorrowland</span>
         </router-link>
         <router-link to="/triller">
-        <span data-cursor-hover>triller fight club</span>
+        <span @mouseover="play({ id: 'navitem7' })" @mouseleave="stop" data-cursor-hover>triller fight club</span>
         </router-link>
         <router-link to="/">
-        <p data-cursor-hover>return to index / startscreen</p>
+        <p @mouseover="play({ id: 'navindex' })" @mouseleave="stop" data-cursor-hover>return to index / startscreen</p>
         </router-link>
     </Slide>
           <router-link to="/splash">
-      <img data-cursor-hover @click="play" class="logo-top logo-absolute"  src="@/assets/logo1_white.svg" alt="">
+      <img data-cursor-hover @click="play({ id:'menubacksfx'})" class="logo-top logo-absolute"  src="@/assets/logo2_white.svg" alt="">
           </router-link>
     <header>
       <div class="wrapping-content">
@@ -64,7 +64,7 @@
     <kinesis-container>
       <kinesis-element :strength="18"  type="translate" >
       <router-link to="/virtualshows">
-      <h1 data-cursor-hover>up next</h1>
+      <h1 @click="play({ id:'splashsfx'})" data-cursor-hover>up next</h1>
       </router-link>
       </kinesis-element>
     </kinesis-container>
@@ -77,7 +77,7 @@
 
 <script>
 import { useSound } from '@vueuse/sound'
-import backButtonSfx from '../assets/menubacksfx.mp3'
+import home from '../assets/home.mp3'
 import { gsap } from 'gsap'
 import { Slide } from 'vue-burger-menu'
 
@@ -104,9 +104,26 @@ export default {
     }
   },
   setup () {
-    const { play } = useSound(backButtonSfx)
+    // const { play, stop } = useSound(backButtonSfx)
+    const { play, stop } = useSound(home, {
+      sprite: {
+        burgernav: [0, 2370],
+        navitem1: [2350, 2350],
+        navitem2: [3500, 3700],
+        navitem3: [5080, 6090],
+        navitem4: [6090, 7080],
+        navitem5: [7080, 8020],
+        navitem6: [8020, 8150],
+        navitem7: [8150, 9000],
+        navindex: [9000, 10160],
+        menubacksfx: [10170, 10200],
+        splashsfx: [12090, 21120],
+        advertising: [21120, 26170]
+      }
+    })
     return {
-      play
+      play,
+      stop
     }
   }
 }

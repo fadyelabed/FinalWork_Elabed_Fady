@@ -6,11 +6,12 @@
         </router-link>
           <h1>[pan-deh-ming]</h1>
         <article>
-            <p >Pandeaming, the combination of pandemic and streaming. A project about how the current pandemic impacted the music industry and the ways they adapted/reacted. </p>
+            <p >Pandeaming, the combination of pandemic and streaming. A Final Work project about how the current pandemic impacted the music industry and the ways they adapted/reacted. In collaboration with Erasmushogeschool Brussel.</p>
             <p>Isolation, probably one of the most important factors about this occurrence, is also reflected in the identity. Not only isolation, but also adaptation, distance and separation. Blending the digital aspect of the streaming side with our current circumstances.</p>
         </article>
+        <img src="@/assets/ehblogo.svg" alt="" >
         </div>
-                                <img src="@/assets/isolation-blue.png" alt="" >
+        <img src="@/assets/isolation-blue.png" alt="" >
 
         <!-- <figure>
       <img src="@/assets/isolation-blue.png" alt="">
@@ -57,6 +58,12 @@ export default {
         opacity: 0,
         delay: 4,
         ease: 'power4.out'
+      })
+      gsap.from('.aboutpage .wrapping-content img', {
+        duration: 1.8,
+        opacity: 0,
+        delay: 4.5,
+        ease: 'power2.out'
       })
     }
   },

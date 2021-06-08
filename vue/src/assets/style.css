@@ -190,10 +190,26 @@ a{
     height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('splashconcert.gif');
+    /* background-image: url('splashconcert.gif');
     background-size: cover;
-    background-position:center;
+    background-position:center; */
     position: relative;
+}
+.splash video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+.copyright{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: ;
 }
 .splash p, .index p{
     position: absolute;
@@ -202,7 +218,22 @@ a{
     transform: translate(-50%, -50%);
     text-transform: uppercase;
 }
-
+.splash span{
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    padding-bottom: 1%;
+    transition: all 0.6s ease;
+}
+.splash p{
+    padding-bottom: 1rem;
+}
+.splash span:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
+.copyright span:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
 .splash .wrapping-content{
     display: flex;
     flex-direction: column;
@@ -221,6 +252,7 @@ a{
     background-repeat: no-repeat; */
 }
 .aboutpage img{
+    width: 100%;
 }
 .aboutpage h2{
     font-weight: normal;
@@ -246,6 +278,11 @@ a{
     color: var(--blue);
 }
 .aboutpage .wrapping-content{}
+.aboutpage .wrapping-content img{
+    height: 75px;
+    width: initial;
+    float: left !important;
+}
 
 .home{
     background-color: white;
@@ -773,7 +810,7 @@ audio{
     text-align: center;
 }
 .indexheader::before{
-    opacity: 0.6 !important;
+    opacity: 0.3 !important;
 }
 .indexheader .wrapping-content{}
 .indexheader article{
