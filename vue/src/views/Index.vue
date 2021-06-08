@@ -20,7 +20,7 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 import { useSound } from '@vueuse/sound'
-import splashBtnSfx from '../assets/splashsfx.mp3'
+import splashBtnSfx from '../assets/menusfx.mp3'
 import { CursorFx } from '@luxdamore/vue-cursor-fx'
 export default {
   name: 'Home',

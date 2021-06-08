@@ -119,47 +119,6 @@ a{
     opacity: 0;
     padding: 0 15px;
 }
-.mobile-splash{
-    height: 100vh;
-    position: fixed;
-    background: #3100ff;
-    width: 100%;
-    z-index: 999999;
-    display: none;
-    align-items: center;
-}
-.mobile-splash .wrapping-content{}
-.mobile-splash img{
-    height: 150px;
-    margin: auto;
-    display: block;
-    position: absolute;
-    /* top: 0; */
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 8%;
-}
-.mobile-splash article{
-    text-align: center;
-    color: white;
-    width: 100%;
-}
-.mobile-splash article img{
-    height: 73px;
-    position: initial;
-    transform: none;
-}
-.mobile-splash h2{
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 1.8;
-}
-@media only screen and (max-width: 800px) {
-
-    .mobile-splash{
-        display: flex;
-    }
-}
 .pandemic{
 }
 .streaming{}
@@ -808,6 +767,53 @@ cursor-fx{
 audio{
     display: initial !important;
 }
+.indexheader{
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+}
+.indexheader::before{
+    opacity: 0.6 !important;
+}
+.indexheader .wrapping-content{}
+.indexheader article{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+.indexheader article h2{
+    text-align: center;
+    margin: auto !important;
+    width: fit-content;
+    display: block;
+    background: black;
+    font-size: 1.2em;
+    font-weight: bold !important;
+    padding: 0.7% 1.5%;
+    padding-top: 0.9%;
+}
+.indexheader article img{
+    height: 45px;
+    margin: auto;
+    display: block;
+    margin-bottom: 1%;
+}
+.indexheader article p{
+    line-height: 1.8;
+}
+.indexheader article h3{
+    border: 1px solid white;
+    padding: 0.9% 1.5%;
+    padding-top: 1%;
+    width: fit-content;
+    margin: auto;
+    text-transform: uppercase;
+    transition: all 0.6s ease;
+}
+.indexheader article h3:hover{
+    background: white;
+    color: black;
+}
 .videoheader video{
     position: fixed;
     right: 0;
@@ -1453,4 +1459,46 @@ footer span{
 }
 .bronnen .arrowleft:hover{
     transform: rotate(60deg);
+}
+
+.mobile-splash{
+    height: 100vh;
+    position: fixed;
+    background: #3100ff;
+    width: 100%;
+    z-index: 999999;
+    display: none;
+    align-items: center;
+}
+.mobile-splash .wrapping-content{}
+.mobile-splash img{
+    height: 150px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    /* top: 0; */
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 8%;
+}
+.mobile-splash article{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.mobile-splash article img{
+    height: 73px;
+    position: initial;
+    transform: none;
+}
+.mobile-splash h2{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.8;
+}
+@media only screen and (max-width: 800px) {
+
+    .mobile-splash{
+        display: flex;
+    }
 }
