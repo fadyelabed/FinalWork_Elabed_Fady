@@ -41,7 +41,9 @@
       <div class="wrapping-content">
           <article>
           <h2>April 23 - 25 / 2020</h2>
-          <h1>Travis scott’s Astronomical breaks Records</h1>
+          <h1>Travis scott’s </h1>
+          <h1>Astronomical</h1>
+          <h1>breaks Records</h1>
           </article>
       </div>
     </header>
@@ -49,10 +51,10 @@
 
     <kinesis-container>
         <kinesis-element :strength="50" type="translate">
-        <img class="fortlogo" src="@/assets/travislogo.png" alt="">
+        <img data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="500" class="fortlogo" src="@/assets/travislogo.png" alt="">
         </kinesis-element>
-    <kinesis-element :strength="38"  type="translate" >
-        <img class="fort1" src="@/assets/fortnite1.png" alt="">
+    <kinesis-element :strength="38"  type="translate"  >
+        <img  class="fort1" src="@/assets/fortnite1.png" alt="">
     </kinesis-element>
     <kinesis-element :strength="25"  type="translate" >
         <img class="fort2" src="@/assets/fortnite2.png" alt="">
@@ -65,20 +67,20 @@
     </section>
     <section class="astro-info">
               <div class="wrapping-content">
-        <article>
+        <article data-aos="fade" data-aos-once="true" data-aos-delay="300" data-aos-duration="1200" data-aos-offset="300">
             <p>Fortnite is known to have made successful ambitious events in the past. Well this time around they decided to partner up with viral hip-hop artist Travis Scott and create the most exciting and interactive live show event yet!</p>
             <p>Known for his songs goosebumps, butterfly effect, sicko mode he set the stage for the first time in a game and managed to pull off one of the most innovative/creative live virtual shows to date.</p>
         </article>
               </div>
     </section>
     <section class="fortnite-video">
-        <video controls>
+        <video data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="300" controls>
             <source src="@/assets/fortnite.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="wrapping-content">
-        <h1>Setting the bar high, like really</h1>
-        <article>
+        <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="300">Setting the bar high, like really</h1>
+        <article data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="300">
             <p>The event itself lasted around 15 minutes, with multiple showings going around at different times for different regions. Players were gathered around the stage before things popped off. Check the video above to watch some scenes of the event. Players were assigned some emotes/dances they could use throughout the performance. As giant sized Travis came smashing down on the stage, it changed the whole island’s appearance. The artist sang his most well known songs and between each song transition, players were teleported, dragged and flown around various different atmospheres that were truly mesmerising. Not to forget this event was free for anyone to join, since the game itself is free, which made this show so accesible.</p>
         </article>
         </div>
@@ -89,20 +91,20 @@
     </audio>
     <section class="fort-item">
         <div class="wrapping-content">
-            <img src="@/assets/fortitem1.jpeg" alt="">
-            <img src="@/assets/fortitem2.jpeg" alt="">
-            <article>
+            <img data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="300" src="@/assets/fortitem1.jpeg" alt="">
+            <img data-aos="fade" data-aos-once="true" data-aos-delay="700" data-aos-duration="1000" data-aos-offset="300" src="@/assets/fortitem2.jpeg" alt="">
+            <article data-aos="fade-up" data-aos-once="true" data-aos-delay="700" data-aos-duration="1000" data-aos-offset="300">
                 <p>Before the event, they released cosmetic add-ons for players to buy such as the Travis skin, his outfits, emotes and more.</p>
             </article>
-            <h2>This event really set the bar for what’s possible in the future for these types of shows. Fortnite set an all-time record for most concurrent players in a video game ever. Going over..</h2>
-            <h1>12.3 million concurrents!</h1>
+            <h2 data-aos="fade-up" data-aos-once="true" data-aos-delay="900" data-aos-duration="1000" data-aos-offset="300">This event really set the bar for what’s possible in the future for these types of shows. Fortnite set an all-time record for most concurrent players in a video game ever. Going over..</h2>
+            <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="1300" data-aos-duration="1000" data-aos-offset="500">12.3 million concurrents!</h1>
         </div>
     </section>
     <section class="upnext-shows">
       <!-- <h1>up next</h1> -->
       <section>
         <router-link to="/joji">
-        <article class="joji-thumb">
+        <article data-aos="fade-up" data-aos-once="true" data-aos-delay="800" data-aos-duration="1000" data-aos-offset="300" class="joji-thumb">
          <kinesis-container>
         <kinesis-element :strength="18"  type="depth" >
             <h2 data-cursor-hover>joji's
@@ -113,7 +115,7 @@
         </router-link>
 
         <router-link to="/tomorrowland">
-        <article class="tomorrowland-thumb">
+        <article data-aos="fade-up" data-aos-once="true" data-aos-delay="1000" data-aos-duration="1000" data-aos-offset="300" class="tomorrowland-thumb">
          <kinesis-container>
         <kinesis-element :strength="18"  type="depth" >
             <h2 data-cursor-hover>tomorrowland:
@@ -124,7 +126,7 @@
 
         </router-link>
         <router-link to="/triller">
-        <article class="triller-thumb">
+        <article data-aos="fade-up" data-aos-once="true" data-aos-delay="1300" data-aos-duration="1000" data-aos-offset="300" class="triller-thumb">
          <kinesis-container>
         <kinesis-element :strength="18"  type="depth" >
             <h2 data-cursor-hover> triller fight club</h2>
@@ -157,12 +159,18 @@ export default {
   },
   methods: {
     startAnimations: function () {
-      gsap.from('.advertising h1', {
+      gsap.from('.videoheader h1', {
         duration: 1.5,
         opacity: 0,
         delay: 3.4,
         y: 55,
         stagger: 0.2,
+        ease: 'power3.out'
+      })
+      gsap.from('.videoheader h2', {
+        duration: 1,
+        opacity: 0,
+        delay: 4.4,
         ease: 'power3.out'
       })
     }

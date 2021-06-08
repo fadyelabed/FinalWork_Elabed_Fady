@@ -20,6 +20,10 @@
     </kinesis-container>
           <img class="arrowdown" src="@/assets/arrowdown.svg" alt="">
     </section>
+    <audio id="bgsong" autoplay>
+      <source src="@/assets/goodday.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
     <section class="whats-next">
         <div class="wrapping-content">
             <article>

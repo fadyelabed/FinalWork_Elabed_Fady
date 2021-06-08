@@ -867,6 +867,7 @@ audio{
 }
 .astro-info{
     background-color: black;
+    padding: 2.5rem 0;
 }
 .astro-info .wrapping-content{}
 .astro-info article{
@@ -1023,7 +1024,9 @@ audio{
     transform: translateY(50);
     line-height: 1;
 }
-
+.joji{
+    /* background: var(--beige); */
+}
 .joji-about{
     background: #101010;
     position: relative;
@@ -1056,6 +1059,7 @@ audio{
     float: right;
     width: 70%;
     margin-top: -3%;
+    mix-blend-mode: lighten;
 }
 .joji-intro{
     background-color: var(--pink);
@@ -1236,10 +1240,14 @@ audio{
     margin-right: 5%;
 
 }
+.tysonjones{
+    padding-top: 6rem;
+}
 .tysonjones .wrapping-content{}
 .tysonjones article{
     width: 55%;
     float: left;
+    margin-top: 4%;
 }
 .tysonjones article p{
     color: white;
@@ -1247,9 +1255,10 @@ audio{
 }
 .tysonjones h1{
     color: var(--beige);
-    line-height: 0.8;
+    line-height: 0.9;
     font-size: 8em;
-    margin-bottom: 4%;
+    margin: 0;
+    /* margin-bottom: 4%; */
 }
 .jakepaul{
     background-color: #080808;
@@ -1418,6 +1427,7 @@ footer span{
 .bronnen p{
     color: white;
     transition: all 0.6s ease;
+    text-transform: uppercase;
 }
 .bronnen a:hover{
     color: var(--pink);
