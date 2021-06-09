@@ -29,9 +29,11 @@
         <p @mouseover="play({ id: 'navindex' })" @mouseleave="stop" data-cursor-hover>return to index / startscreen</p>
         </router-link>
     </Slide>
+    <article class="center-image">
           <router-link to="/splash">
-      <img data-cursor-hover @click="play({ id:'menubacksfx'})" class="logo-top"  src="@/assets/logo1_blue.svg" alt="">
+      <img data-cursor-hover @click="play({ id:'menubacksfx'})" src="@/assets/logo1_blue.svg" alt="">
           </router-link>
+      </article>
     <header>
       <div class="wrapping-content">
         <h1>income streams</h1>

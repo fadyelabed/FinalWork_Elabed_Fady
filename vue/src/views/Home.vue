@@ -30,10 +30,12 @@
         <p @mouseover="play({ id: 'navindex' })" @mouseleave="stop" data-cursor-hover>return to index / startscreen</p>
         </router-link>
     </Slide>
+    <article class="center-image">
           <router-link to="/splash">
-      <img data-cursor-hover @click="play({ id:'menubacksfx'})" class="logo-top" src="@/assets/logo3_blue.svg" alt="">
+      <img data-cursor-hover @click="play({ id:'menubacksfx'})" src="@/assets/logo3_blue.svg" alt="">
           </router-link>
       <article>
+      </article>
     <kinesis-container>
       <kinesis-element :strength="12"  type="translate" >
             <h1>how the</h1>

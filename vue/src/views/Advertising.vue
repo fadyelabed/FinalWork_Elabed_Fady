@@ -29,11 +29,12 @@
         <p @mouseover="play({ id: 'navindex' })" @mouseleave="stop" data-cursor-hover>return to index / startscreen</p>
         </router-link>
     </Slide>
-          <router-link to="/splash">
-      <img data-cursor-hover @click="play({ id:'menubacksfx'})" class="logo-top logo-absolute"  src="@/assets/logo2_white.svg" alt="">
-          </router-link>
+
     <header>
       <div class="wrapping-content">
+            <router-link to="/splash">
+      <img  data-cursor-hover @click="play"  class="logo-top logo-absolute"  src="@/assets/logo2_white.svg" alt="">
+    </router-link>
          <kinesis-container>
       <kinesis-element :strength="10"  type="depth" >
         <h1>advertising spend</h1>
