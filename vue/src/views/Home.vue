@@ -62,11 +62,7 @@
             </kinesis-container>
               <p data-aos="fade-up" data-aos-delay="550" data-aos-duration="1300">it was reported that <b>Spotify</b> streams of the world’s <b>biggest hits</b> were actually <b>down</b> by..</p>
           </article>
-
-          <article class="numberfact">
-              <h2 data-aos="fade-left" data-aos-delay="300" data-aos-duration="1300" >11%</h2>
-          </article>
-
+              <h3 data-aos="fade-left" data-aos-delay="300" data-aos-duration="1300" >11%</h3>
         </div>
           <figure data-aos="fade-up" data-aos-delay="300" data-aos-duration="1300">
           </figure>
