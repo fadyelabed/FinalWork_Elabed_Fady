@@ -6,8 +6,8 @@
         </router-link>
           <h1>[pan-deh-ming]</h1>
         <article>
-            <p >Pandeaming, the combination of pandemic and streaming. A Final Work project about how the current pandemic impacted the music industry and the ways they adapted/reacted. In collaboration with Erasmushogeschool Brussel.</p>
-            <p>Isolation, probably one of the most important factors about this occurrence, is also reflected in the identity. Not only isolation, but also adaptation, distance and separation. Blending the digital aspect of the streaming side with our current circumstances.</p>
+            <p>Pandeaming, the combination of <b>pandemic</b> and <b>streaming</b>. A Final Work project about how the current pandemic <b>impacted</b> the music industry and the ways they adapted/reacted. In collaboration with <b>Erasmushogeschool</b> <b>Brussel</b>.</p>
+            <p><b>Isolation</b>, probably one of the most important factors about this occurrence, is also reflected in the identity. Not only isolation, but also <b>adaptation</b>, <b>distance</b> and <b>separation</b>. Blending the digital aspect of the streaming side with our current circumstances.</p>
         </article>
         <img src="@/assets/ehblogo.svg" alt="" >
         </div>
@@ -16,7 +16,7 @@
         <!-- <figure>
       <img src="@/assets/isolation-blue.png" alt="">
         </figure> -->
-            <cursor-fx>
+    <cursor-fx>
     </cursor-fx>
   </div>
 </template>

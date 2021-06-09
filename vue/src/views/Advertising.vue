@@ -44,8 +44,8 @@
     <section class="advertising-info">
       <div class="wrapping-content">
       <article>
-        <h2 data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300">There has also been reductions in advertising spending that are happening worldwide.</h2>
-        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300">A survey by the Interactive Advertising Bureau shows that around one quarter of brands and media buyers have put their advertising on hold for the first half of 2020. 46% of them have simply reduced spending. This result affects ad-supported music channels. Spotify also announced that it missed its first quarter advertising targets due to these changes in ad budgets.</p>
+        <h2 data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300">There has also been <b>reductions</b> in <b>advertising spending</b> that are happening <b>worldwide</b>.</h2>
+        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300">A <b>survey</b> by the <b>Interactive Advertising Bureau</b> shows that around <b>one quarter of brands</b> and <b>media buyers</b> have put their advertising <b>on hold</b> for the first half of 2020. <b>46%</b> of them have simply <b>reduced spending</b>. This result <b>affects ad-supported music channels</b>. Spotify also announced that it <b>missed</b> its first quarter <b>advertising targets</b> due to these <b>changes in ad budgets</b>.</p>
       </article>
       <img data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-offset="300" src="@/assets/distribution.jpeg" alt="">
       </div>
@@ -54,8 +54,8 @@
       <div class="wrapping-content">
       <h1>distribution</h1>
       <article>
-      <p>When all of this broke out there was a growing list of artists who delayed their upcoming projects to later that year. All because they were unable to go on tours to promote their new releases. Concerts that were planned in 2020 were being postponed to 2021, which most of have been delayed again and planned for 2022.</p>
-      <p>As long as bans have been in place for large gatherings, revenue for live performances is almost zero. Basically cutting the industry’s total revenue in half. The six-month shutdown was estimated to cost over 10$ billion in sponsorships.</p>
+      <p>When all of this broke out there was a <b>growing list of artists</b> who <b>delayed</b> their upcoming <b>projects</b> to later that year. All because they were <b>unable</b> to go on <b>tours</b> to promote their new releases. Concerts that were planned in 2020 were being <b>postponed to 2021</b>, which <b>most</b> of have been <b>delayed again</b> and planned for <b>2022</b>.</p>
+      <p>As long as bans have been in place for large gatherings, <b>revenue</b> for live performances is <b>almost zero</b>. Basically <b>cutting</b> the <b>industry’s total revenue in half</b>. The six-month shutdown was estimated to cost <b>over 10$ billion</b> in sponsorships.</p>
       </article>
       </div>
     </section>

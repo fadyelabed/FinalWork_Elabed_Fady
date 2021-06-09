@@ -52,7 +52,6 @@
     </kinesis-element>
     </kinesis-container>
       </article>
-
       <section class="fewfacts" >
         <div class="wrapping-content">
           <article>
@@ -61,7 +60,7 @@
                 <h2 data-aos="fade" data-aos-delay="500" data-aos-duration="1300">a few facts</h2>
                 </kinesis-element>
             </kinesis-container>
-              <p data-aos="fade-up" data-aos-delay="550" data-aos-duration="1300">it was reported that Spotify streams of the world’s biggest hits were actually down by..</p>
+              <p data-aos="fade-up" data-aos-delay="550" data-aos-duration="1300">it was reported that <b>Spotify</b> streams of the world’s <b>biggest hits</b> were actually <b>down</b> by..</p>
           </article>
 
           <article class="numberfact">
@@ -77,7 +76,7 @@
 
       <section class="facts" >
           <article>
-            <p data-aos="fade" data-aos-duration="1300">Pollstar estimated the total lost revenue for the live music industry in 2020 at more than..</p>
+            <p data-aos="fade" data-aos-duration="1300"><b>Pollstar</b> estimated the <b>total lost revenue</b> for the live music industry in <b>2020</b> at more than..</p>
             <h2 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1300">30$ billion</h2>
           </article>
       </section>
@@ -87,9 +86,9 @@
             <h3>Which also lead to a wave of cancellations of events, festivals, and tours</h3>
             <h1>And thus began the rise of virtual events</h1>
             <article>
-            <p>2020, the year that drastically changed a lot of industries, one of them certainly being the music industry.
+            <p>2020, the year that <b>drastically</b> changed a lot of industries, one of them certainly being the music industry.
             </p>
-            <p>An occurrence that some seemed to take a bit too lightly. Knowing that live performances account for 50% of the global music industry’s total revenue, things needed to change, quickly. Since then we’ve seen plenty of really innovative and creative ways of how companies adapted to the circumstances, few of which you’ll see mentioned. But before we get to those, I’ll talk more about the specifics.</p>
+            <p>An <b>occurrence</b> that some seemed to take a bit too <b>lightly</b>. Knowing that <b>live</b> <b>performances</b> account for 50% of the global music industry’s <b>total revenue</b>, things needed to change, quickly. Since then we’ve seen plenty of really <b>innovative</b> and <b>creative</b> ways of how companies <b>adapted</b> to the circumstances, few of which you’ll see mentioned. But before we get to those, I’ll talk more about the specifics.</p>
             </article>
             <!-- <h4>welcome to pandeaming</h4> -->
         </div>

@@ -6,7 +6,7 @@
           <img src="@/assets/loadingscreen.gif" alt="">
           <article>
           <img src="@/assets/browsericon.svg" alt="">
-            <h2>Unfortunately, pandeaming is a web only experience that's meant to be experienced on your desktop/laptop.</h2>
+            <h2>Unfortunately, pandeaming is a web-only experience that's meant to be experienced on your desktop/laptop.</h2>
           </article>
         </div>
     </div>

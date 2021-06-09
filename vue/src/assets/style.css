@@ -8,7 +8,10 @@
     max-width: 100vw;
     max-height: 100vh;
 }
-
+p b{
+    color: var(--orange);
+    font-weight: normal;
+}
 ::-moz-selection {
     /* Code for Firefox */
     color: var(--beige);
@@ -209,7 +212,6 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    color: ;
 }
 .splash p, .index p{
     position: absolute;
@@ -252,7 +254,11 @@ a{
     background-repeat: no-repeat; */
 }
 .aboutpage img{
+}
+.aboutpage img{
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 .aboutpage h2{
     font-weight: normal;
@@ -271,7 +277,7 @@ a{
     color: var(--orange);
 }
 .aboutpage article{
-    width: 50%;
+    width: 55%;
 }
 .aboutpage p{
     line-height: 1.8;
@@ -282,6 +288,7 @@ a{
     height: 75px;
     width: initial;
     float: left !important;
+    position: relative;
 }
 
 .home{
@@ -319,6 +326,9 @@ a{
 margin-top: 5em;
     position: relative;
     overflow: hidden;
+}
+.fewfacts b{
+    color: var(--pink) !important;
 }
 .home .wrapping-content{
     background-image: none !important;
@@ -416,6 +426,10 @@ margin-top: 5em;
     margin-bottom: 0;
     margin-top: 15%;
     line-height: 0.9;
+}
+.outro-home b{
+    color: white !important;
+    mix-blend-mode: normal !important;
 }
 .outro-home h3{
     color: var(--beige);
@@ -568,6 +582,13 @@ cursor-fx{
     height: 100vh;
     background-attachment: fixed;
 }
+.sales header u{
+    color: var(--orange);
+
+}
+.sales header u:hover{
+    color: var(--blue);
+}
 .sales header h1{
     color: var(--blue);
     font-size: 12em;
@@ -591,6 +612,15 @@ cursor-fx{
 .sales header p{}
 .streaming{
     background: #171717;
+}
+.streaming b{
+    color: var(--pink);
+}
+u{
+    transition: all 0.6s ease;
+}
+.streaming u:hover{
+    color: var(--blue);
 }
 .streaming .wrapping-content{}
 .streaming h1{
@@ -624,6 +654,13 @@ cursor-fx{
     margin-top: -6%;
     height: 100vh;
     overflow: hidden;
+}
+.listening b{
+    color: var(--blue) !important;
+}
+.listening u:hover{
+    color: var(--blue) !important;
+
 }
 .listening article{
     width: 50%;
@@ -700,6 +737,9 @@ cursor-fx{
     padding: 10em 0;
     padding-top: 13em;
     margin-top: -23em;
+}
+.distribution b{
+    color: var(--pink) !important;
 }
 .distribution article{
     width: 70%;
@@ -789,6 +829,9 @@ cursor-fx{
     background-image: url('jojiextra_1.jpeg');
 
 }
+.tomorrowland b, .triller b{
+    color: var(--pink);
+}
 .tomorrowland-thumb{
     background-image: url('tmrwland.jpeg');
 
@@ -823,7 +866,7 @@ audio{
     margin: auto !important;
     width: fit-content;
     display: block;
-    background: black;
+    background: var(--blue);
     font-size: 1.2em;
     font-weight: bold !important;
     padding: 0.7% 1.5%;
@@ -908,6 +951,9 @@ audio{
 .astronomical img{
     width: 68%;
 }
+.astro-info b{
+    color: var(--pink) !important;
+}
 .astro-info{
     background-color: black;
     padding: 2.5rem 0;
@@ -971,7 +1017,11 @@ audio{
 }
 .fort-item{
     background-color: var(--blue);
-    padding: 5em 0;
+    padding: 
+    5em 0;
+}
+.fort-item b{
+    color: white;
 }
 .fort-item img{
     width: 47%;
@@ -1111,11 +1161,14 @@ audio{
 .joji-intro article{
     width: 70%;
 }
+.joji-intro b, .joji-intro span{
+    color: var(--blue);
+}
 .joji-intro article p{
     line-height: 1.8;
 }
 .joji article span{
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .joji-shows{
     background-color: var(--beige);
@@ -1166,6 +1219,9 @@ audio{
 .bg-orange{
     background-color: var(--orange) !important;
 }
+.bg-orange b{
+    color: var(--pink);
+}
 .bg-orange video:nth-child(3){
     margin-top: -8%;
     float: left;
@@ -1187,6 +1243,9 @@ audio{
 }
 .bg-dark{
     background-color: #101010;
+}
+.bg-dark b{
+    color: var(--pink);
 }
 .bg-dark article{
     width: 85%;
@@ -1374,6 +1433,9 @@ audio{
     text-align: center;
     margin-bottom: 6%;
 }
+.askren b{
+    color: var(--orange) !important;
+}
 .jake-askren h1{
     margin: 0;
     line-height: 0.8;
@@ -1421,6 +1483,9 @@ audio{
 }
 .conclusion footer{
     padding: 2rem 0;
+}
+.conclusion b{
+    color: var(--pink);
 }
 .conclusion footer p{
     text-transform: uppercase;

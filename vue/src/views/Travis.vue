@@ -68,8 +68,8 @@
     <section class="astro-info">
               <div class="wrapping-content">
         <article data-aos="fade" data-aos-once="true" data-aos-delay="300" data-aos-duration="1200" data-aos-offset="300">
-            <p>Fortnite is known to have made successful ambitious events in the past. Well this time around they decided to partner up with viral hip-hop artist Travis Scott and create the most exciting and interactive live show event yet!</p>
-            <p>Known for his songs goosebumps, butterfly effect, sicko mode he set the stage for the first time in a game and managed to pull off one of the most innovative/creative live virtual shows to date.</p>
+            <p><b>Fortnite</b> is <b>known</b> to have made <b>successful ambitious events</b> in the past. Well this time around they decided to <b>partner up</b> with viral hip-hop artist <b>Travis Scott</b> and create the most <b>exciting</b> and <b>interactive</b> live show event yet!</p>
+            <p>Known for his songs <b>'goosebumps'</b>, <b>'butterfly effect'</b>, <b>'sicko mode'</b> he set the stage for the <b>first time</b> in a <b>game</b> and managed to pull off one of the most <b>innovative/creative</b> live virtual shows to date.</p>
         </article>
               </div>
     </section>
@@ -81,7 +81,7 @@
         <div class="wrapping-content">
         <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="300">Setting the bar high, like really</h1>
         <article data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="300">
-            <p>The event itself lasted around 15 minutes, with multiple showings going around at different times for different regions. Players were gathered around the stage before things popped off. Check the video above to watch some scenes of the event. Players were assigned some emotes/dances they could use throughout the performance. As giant sized Travis came smashing down on the stage, it changed the whole island’s appearance. The artist sang his most well known songs and between each song transition, players were teleported, dragged and flown around various different atmospheres that were truly mesmerising. Not to forget this event was free for anyone to join, since the game itself is free, which made this show so accesible.</p>
+            <p>The event itself lasted around <b>15 minutes</b>, with <b>multiple showings</b> going around at <b>different times</b> for different regions. Players were <b>gathered around</b> the stage before things popped off. <b>Check the video above</b> to watch some <b>scenes</b> of the event. Players were assigned some <b>emotes/dances</b> they could use <b>throughout</b> the performance. As <b>giant sized</b> Travis came <b>smashing down</b> on the stage, it <b>changed</b> the whole <b>island’s appearance</b>. The artist <b>sang</b> his <b>most well known songs</b> and between each song transition, players were <b>teleported</b>, <b>dragged</b> and <b>flown around</b> various different <b>atmospheres</b> that were truly mesmerising. Not to forget this event was <b>free</b> for anyone to join, since the game itself is free, which made this show so <b>accesible</b>.</p>
         </article>
         </div>
     </section>
@@ -96,7 +96,7 @@
             <article data-aos="fade-up" data-aos-once="true" data-aos-delay="700" data-aos-duration="1000" data-aos-offset="300">
                 <p>Before the event, they released cosmetic add-ons for players to buy such as the Travis skin, his outfits, emotes and more.</p>
             </article>
-            <h2 data-aos="fade-up" data-aos-once="true" data-aos-delay="900" data-aos-duration="1000" data-aos-offset="300">This event really set the bar for what’s possible in the future for these types of shows. Fortnite set an all-time record for most concurrent players in a video game ever. Going over..</h2>
+            <h2 data-aos="fade-up" data-aos-once="true" data-aos-delay="900" data-aos-duration="1000" data-aos-offset="300">This event really <b>set the bar</b> for what’s possible in the <b>future</b> for these types of shows. Fortnite set an <b>all-time record</b> for <b>most concurrent players</b> in a video game <b>ever</b>. Going over..</h2>
             <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="1300" data-aos-duration="1000" data-aos-offset="500">12.3 million concurrents!</h1>
         </div>
     </section>

@@ -57,7 +57,7 @@
           <h1 data-aos="fade-left" data-aos-once="true" data-aos-delay="1000" data-aos-duration="1000" >mind</h1>
           <h1 data-aos="fade-left" data-aos-once="true" data-aos-delay="1100" data-aos-duration="1000" >behind it</h1>
           <article data-aos="fade-up" data-aos-once="true" data-aos-delay="1100" data-aos-duration="1300">
-            <p>Joji, 88rising star formerly known as Filthy Frank on YouTube, held his first virtual show ever after releasing his second studio album 'NECTAR'. On Saturday (Oct 24th) George Miller broadcasted this unique event on his website, with 3 different sessions for different timezones.</p>
+            <p><b>Joji</b>, 88rising star formerly known as <b>'Filthy Frank'</b> on YouTube, held his <b>first virtual show</b> ever after <b>releasing</b> his second studio album <b>'NECTAR'</b>. On Saturday <b>(Oct 24th)</b> George Miller broadcasted this <b>unique event</b> on his website, with <b>3 different sessions</b> for different timezones.</p>
           </article>
         </div>
         <img data-aos="fade-left" data-aos-once="true" data-aos-delay="1100" data-aos-duration="1600"  src="@/assets/joji.jpeg" alt="">
@@ -65,7 +65,7 @@
     <section class="joji-intro">
       <div class="wrapping-content">
       <article>
-        <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="500" >Most of the songs being from his latest project, but also included some fan-favorites such as '<span>Yeah Right</span>', '<span>Slow Dancing in The Dark</span>' and '<span>Attention</span>'. This whole show was full of surprises. Filled with various skits, talent shows, different challenges in between and during performances. Each of them representing the artist's personality in a comedic manner.</p>
+        <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="500"><b>Most of the songs</b> performed during Extravaganza were from his <b>latest project</b>, but also included some <b>fan-favorites</b> such as '<span>Yeah Right</span>', '<span>Slow Dancing in The Dark</span>' and '<span>Attention</span>'. This whole show was <b>full of surprises</b>. Filled with various <b>skits</b>, <b>talent shows</b>, different <b>challenges</b> in between and during performances. Each of them <b>representing</b> the artist's <b>personality</b> in a comedic manner.</p>
       </article>
       </div>
     </section>
@@ -75,14 +75,14 @@
             Your browser does not support the video tag.
         </video>
         <article data-aos="fade-left" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750"  class="padding-article float-right">
-          <p>Opening the show sitting atop a dunk tank while singing 'Sanctuary', various candidates took their turn to disrupt Joji's singing. Reaching the end, a baseball player got his turn and managed to get the job done. Leaving the singer behind singing in deep water.</p>
+          <p><b>Opening the show</b> sitting atop a <b>dunk tank</b> while singing <b>'Sanctuary'</b>, various candidates <b>took their turn</b> to <b>disrupt</b> Joji's singing by <b>hitting</b> the <b>target</b> with a baseball. Reaching the end, a baseball player got his turn and <b>managed</b> to get the job done, <b>leaving the singer</b> behind singing <b>in deep water</b>.</p>
         </article>
     </section>
     <section class="joji-shows">
         <img data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" src="@/assets/attention.png" alt="">
         <img data-aos="fade-up" data-aos-once="true" data-aos-delay="800" data-aos-duration="1200" data-aos-offset="750" src="@/assets/tiktok.png" alt="">
         <article class="padding-article text-center">
-        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="750" >Across all performances you'll see him make interesting costume choices that may leave u distracted. Such as his follow-up performance, when he sang 'Attention' while wearing a horse costume.</p>
+        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="750" >Across all performances you'll see him make <b>interesting costume choices</b> that may leave u <b>distracted</b>. Such as his follow-up performance, when he sang '<b>Attention'</b> while wearing a <b>horse costume</b>. Or during his <b>'Tick Tock'</b> performance, when he wore a <b>minions</b> costume for some reason</p>
         </article>
     </section>
      <section class="joji-shows">
@@ -91,12 +91,12 @@
             Your browser does not support the video tag.
         </video>
         <article  class="padding-article" >
-        <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" > Not only can George sing, but he can also multitask as well, seen in his performance 'Your Man' where he makes an omelette while singing. The stars backdrop combined with the aliens assisting him in his cooking makes for quite an enjoyable performance.</p>
+        <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" > Not only can George sing, but he can also <b>multitask</b> as well, seen in his performance <b>'Your Man'</b> where he makes an <b>omelette while singing</b>. The <b>stars backdrop</b> combined with the <b>aliens</b> assisting him in his cooking makes for quite an <b>enjoyable</b> performance.</p>
         </article>
     </section>
     <section class="joji-shows bg-orange">
         <article class="padding-article">
-          <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" >Now I wont be talking about every single performance of the show, but some of the more memorable performance were the ones like 'Pretty Boy' where he was performing in an octagon as the referee while 2 fighters battled their way through victory. Or during 'Run' as the singer went through an obstacle course and ended up on a treadmill literally running while performing his song called 'Run'.</p>
+          <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" >Now <b>I wont be</b> talking about <b>every single</b> performance of the show, but some of the more <b>memorable</b> performances were the ones like <b>'Pretty Boy'</b> where he was performing in an <b>octagon</b> as the <b>referee</b> while 2 fighters <b>battled</b> their way through <b>victory</b>. Or during <b>'Run'</b> as the singer went through an <b>obstacle course</b> and ended up on a <b>treadmill</b> literally <b>running</b> while performing his song called <b>'Run'</b>.</p>
         </article>
         <video data-aos="fade-left" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" class="float-right" autoplay muted loop>
             <source src="@/assets/prettyboy.mp4" type="video/mp4">
@@ -110,7 +110,7 @@
       <section class="joji-shows bg-dark">
         <div class="wrapping-content">
         <article class="padding-article">
-        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750">This whole theatrical event just reminded us that this singer- songwriter was once a celebrated internet personality known as Filthy Frank. He pulled off an out of the ordinary enjoyable, unexpected show. Setting the bar high for future digital concerts, and setting himself aside from the generic regular live shows where artists just perform their songs and call it a day.</p>
+        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750">This whole theatrical event just <b>reminded</b> us that this singer- songwriter was once a <b>celebrated internet personality</b> known as <b>'Filthy Frank'</b>. He pulled off an <b>out of the ordinary</b>, <b>enjoyable</b>, <b>unexpected</b> show. Setting the bar <b>high</b> for future digital concerts, and <b>setting himself aside</b> from the generic regular live shows where artists <b>just perform their songs</b> and call it a day.</p>
         </article>
         </div>
 

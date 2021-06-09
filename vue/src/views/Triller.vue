@@ -57,8 +57,8 @@
             <h1 data-aos="fade-left" data-aos-once="true" data-aos-delay="900" data-aos-duration="1000">entertainment</h1>
             <h1 data-aos="fade-left" data-aos-once="true" data-aos-delay="950" data-aos-duration="1000">world together</h1>
             <article>
-                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600">On April 17th Triller hosted their second boxing event. The first one being the Tyson vs Jones event that was organized on November 28th 2020.</p>
-                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600">You're probably wondering why I'm talking about boxing all of a sudden, well Triller is the first platform to establish an event in this sort of manner. Basically they had the idea to host a boxing event and have multiple artists present to perform in between fights. So you would have the enjoyment of being able to watch these fights and see these live artists perform, which creates for a very cool dynamic. The Tyson vs Jones event had appearances from French Montana, Wiz Khalifa, Snoop Dogg, YG, Ne-yo and Saint JHN.</p>
+                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600">On April 17th, <b>Triller hosted</b> their <b>second boxing event</b>. The first one being the <b>Tyson vs Jones</b> event that was organized on <b>November 28th 2020</b>.</p>
+                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600">You're probably wondering why I'm talking about boxing all of a sudden, well <b>Triller</b> is the first platform to establish an event in this <b>sort of manner</b>. Basically they had the idea to host a boxing event and have <b>multiple artists</b> present to <b>perform</b> in between fights. So you would have <b>the enjoyment</b> of being able to watch these <b>fights</b> and see these <b>live artists</b> perform, which creates for a very <b>cool dynamic</b>. The Tyson vs Jones event had appearances from <b>French Montana</b>, <b>Wiz Khalifa</b>, <b>Snoop Dogg</b>, <b>YG</b>, <b>Ne-yo</b> and <b>Saint JHN</b>.</p>
             </article>
             <img data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600" class="trillerlogo" src="@/assets/trillerlogo.jpeg" alt="">
         </div>
@@ -67,7 +67,7 @@
     <section class="jakepaul">
         <div class="wrapping-content">
             <article data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600">
-                <p>The main event Mike Tyson against Roy Jones Jr. was an exhibition fight which means that it wouldn't affect their professional records. The fight was surprisingly entertaining considering the 2 are over the age of 50. This matchup resulted in a draw. Not to mention the recent hype of influencer boxing in which YouTuber Jake Paul was both involved in. Jake Paul was up against former NBA-player Nate Robinson. Jake Paul unsurprisingly knocked out Nate in the 2nd round, which resulted in him stealing the show and going viral for his impressive performance. </p>
+                <p>The main event <b>Mike Tyson</b> against <b>Roy Jones Jr.</b> was an <b>exhibition fight</b> which means that it wouldn't affect their professional records. The fight was <b>surprisingly entertaining</b> considering the 2 are <b>over the age of 50</b>. This matchup resulted in a <b>draw</b>. Not to mention the <b>recent hype</b> of <b>influencer boxing</b> in which YouTuber <b>Jake Paul</b> was both involved in. Jake Paul was up against <b>former NBA-player Nate Robinson</b>. Jake Paul unsurprisingly <b>knocked out</b> Nate in the <b>2nd round</b>, which resulted in him <b>stealing the show</b> and <b>going viral</b> for his impressive performance. </p>
             </article>
         </div>
          <img data-aos="fade-right" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600" src="@/assets/nate.jpeg" alt="">
@@ -76,7 +76,7 @@
     <section class="askren">
         <div class="wrapping-content">
             <article>
-                <p data-aos="fade" data-aos-once="true" data-aos-delay="800" data-aos-duration="1000" data-aos-offset="600">Now this time around Jake Paul managed to secure a main event against retired MMA fighter and olympic wrestler Ben Askren. Triller wanted to up the level in terms of entertainment by including more artists, setting up multiple stages with lots of visuals. The line-up consisted of: Justin Bieber, The Black Keys, Doja Cat, Saweetie, Diplo, Major Lazer and Mt. Westmore. So Triller really pulled out the big guns this time with their line-up. Not only did they hire artists, but they also got different hosts as well, such as comedian Pete Davidson, Snoop Dogg, Tiktok stars Charli & Dixie Damelio and more.</p>
+                <p data-aos="fade" data-aos-once="true" data-aos-delay="800" data-aos-duration="1000" data-aos-offset="600">Now this time around Jake Paul managed to secure a <b>main event</b> against <b>retired MMA fighter</b> and <b>olympic wrestler Ben Askren</b>. Triller wanted to <b>up the level</b> in terms of <b>entertainment</b> by including more artists, setting up <b>multiple stages</b> with lots of <b>visuals</b>. The line-up consisted of: <b>Justin Bieber</b>, <b>The Black Keys</b>, <b>Doja Cat</b>, <b>Saweetie</b>, <b>Diplo</b>, <b>Major Lazer</b> and <b>Mt. Westmore</b>. So Triller really pulled out the <b>big guns</b> this time with their <b>line-up</b>. Not only did they hire artists, but they also got <b>different hosts</b> as well, such as comedian <b>Pete Davidson</b>, <b>Snoop Dogg</b>, Tiktok stars <b>Charli & Dixie Damelio</b> and more.</p>
             </article>
         </div>
         <figure>
@@ -86,9 +86,9 @@
             <img data-aos="fade-down" data-aos-once="true" data-aos-delay="1200" data-aos-duration="1000" data-aos-offset="1500" src="@/assets/blackkeys.png" alt="">
         </figure>
     <div class="wrapping-content jake-askren">
-        <h2 data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600"> Jake Paul managed to secure his 3rd win by TKO in the first round. The event appeared to have made over...</h2>
+        <h2 data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600"> Jake Paul managed to <b>secure</b> his <b>3rd win</b> by <b>TKO</b> in the <b>first round</b>. The event appeared to have made over...</h2>
         <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="800" data-aos-duration="1000" data-aos-offset="600">1.5 million PPV buys</h1>
-        <h2 data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600">and generating over 65 million dollars!</h2>
+        <h2 data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="600">and generating over <b>65 million dollars</b>!</h2>
     </div>
     <img class="jake-askren1" src="@/assets/jakeaskren.jpeg" alt="">
     <img class="jake-askren2" src="@/assets/askren.jpeg" alt="">
