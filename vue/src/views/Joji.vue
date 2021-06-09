@@ -70,39 +70,39 @@
       </div>
     </section>
     <section class="joji-shows">
-        <video data-aos="fade-left" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750"  controls>
+        <video data-aos="fade-left" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="500"  controls>
             <source src="@/assets/sanctuary.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <article data-aos="fade-left" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750"  class="padding-article float-right">
+        <article data-aos="fade-left" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="500"  class="padding-article float-right">
           <p><b>Opening the show</b> sitting atop a <b>dunk tank</b> while singing <b>'Sanctuary'</b>, various candidates <b>took their turn</b> to <b>disrupt</b> Joji's singing by <b>hitting</b> the <b>target</b> with a baseball. Reaching the end, a baseball player got his turn and <b>managed</b> to get the job done, <b>leaving the singer</b> behind singing <b>in deep water</b>.</p>
         </article>
     </section>
     <section class="joji-shows">
-        <img data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" src="@/assets/attention.png" alt="">
-        <img data-aos="fade-up" data-aos-once="true" data-aos-delay="800" data-aos-duration="1200" data-aos-offset="750" src="@/assets/tiktok.png" alt="">
+        <img data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="500" src="@/assets/attention.png" alt="">
+        <img data-aos="fade-up" data-aos-once="true" data-aos-delay="800" data-aos-duration="1200" data-aos-offset="500" src="@/assets/tiktok.png" alt="">
         <article class="padding-article text-center">
-        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="750" >Across all performances you'll see him make <b>interesting costume choices</b> that may leave u <b>distracted</b>. Such as his follow-up performance, when he sang '<b>Attention'</b> while wearing a <b>horse costume</b>. Or during his <b>'Tick Tock'</b> performance, when he wore a <b>minions</b> costume for some reason</p>
+        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="500" >Across all performances you'll see him make <b>interesting costume choices</b> that may leave u <b>distracted</b>. Such as his follow-up performance, when he sang '<b>Attention'</b> while wearing a <b>horse costume</b>. Or during his <b>'Tick Tock'</b> performance, when he wore a <b>minions</b> costume for some reason</p>
         </article>
     </section>
      <section class="joji-shows">
-        <video data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750"  class="float-right" controls>
+        <video data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="350"  class="float-right" controls>
             <source src="@/assets/yourman.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <article  class="padding-article" >
-        <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" > Not only can George sing, but he can also <b>multitask</b> as well, seen in his performance <b>'Your Man'</b> where he makes an <b>omelette while singing</b>. The <b>stars backdrop</b> combined with the <b>aliens</b> assisting him in his cooking makes for quite an <b>enjoyable</b> performance.</p>
+        <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="350" > Not only can George sing, but he can also <b>multitask</b> as well, seen in his performance <b>'Your Man'</b> where he makes an <b>omelette while singing</b>. The <b>stars backdrop</b> combined with the <b>aliens</b> assisting him in his cooking makes for quite an <b>enjoyable</b> performance.</p>
         </article>
     </section>
     <section class="joji-shows bg-orange">
         <article class="padding-article">
-          <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" >Now <b>I wont be</b> talking about <b>every single</b> performance of the show, but some of the more <b>memorable</b> performances were the ones like <b>'Pretty Boy'</b> where he was performing in an <b>octagon</b> as the <b>referee</b> while 2 fighters <b>battled</b> their way through <b>victory</b>. Or during <b>'Run'</b> as the singer went through an <b>obstacle course</b> and ended up on a <b>treadmill</b> literally <b>running</b> while performing his song called <b>'Run'</b>.</p>
+          <p data-aos="fade" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="350" >Now <b>I wont be</b> talking about <b>every single</b> performance of the show, but some of the more <b>memorable</b> performances were the ones like <b>'Pretty Boy'</b> where he was performing in an <b>octagon</b> as the <b>referee</b> while 2 fighters <b>battled</b> their way through <b>victory</b>. Or during <b>'Run'</b> as the singer went through an <b>obstacle course</b> and ended up on a <b>treadmill</b> literally <b>running</b> while performing his song called <b>'Run'</b>.</p>
         </article>
-        <video data-aos="fade-left" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" class="float-right" autoplay muted loop>
+        <video data-aos="fade-left" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="350" class="float-right" autoplay muted loop>
             <source src="@/assets/prettyboy.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <video data-aos="fade-right" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750" class="float-left" autoplay muted loop>
+        <video data-aos="fade-right" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="150" class="float-left" autoplay muted loop>
             <source src="@/assets/run.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -110,7 +110,7 @@
       <section class="joji-shows bg-dark">
         <div class="wrapping-content">
         <article class="padding-article">
-        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="750">This whole theatrical event just <b>reminded</b> us that this singer- songwriter was once a <b>celebrated internet personality</b> known as <b>'Filthy Frank'</b>. He pulled off an <b>out of the ordinary</b>, <b>enjoyable</b>, <b>unexpected</b> show. Setting the bar <b>high</b> for future digital concerts, and <b>setting himself aside</b> from the generic regular live shows where artists <b>just perform their songs</b> and call it a day.</p>
+        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="500" data-aos-duration="1200" data-aos-offset="500">This whole theatrical event just <b>reminded</b> us that this singer- songwriter was once a <b>celebrated internet personality</b> known as <b>'Filthy Frank'</b>. He pulled off an <b>out of the ordinary</b>, <b>enjoyable</b>, <b>unexpected</b> show. Setting the bar <b>high</b> for future digital concerts, and <b>setting himself aside</b> from the generic regular live shows where artists <b>just perform their songs</b> and call it a day.</p>
         </article>
         </div>
 
